@@ -1,0 +1,394 @@
+Cog2000 log file Sun Sep 29 11:26:38 2019
+gprim v1.33 Compiled:Aug 12 2015 (GLib DirectDraw v7 DX12.0 Compiled:Aug 12 2015)
+Display:1024x768x32 59.99Hz
+Attaching C:\Program Files\Cogent2000v1.33\Toolbox\CogInput.mexw64
+CogInput v1.05 Compiled: May 20 2010
+7	[7]	:	COGENT START
+7953	[7946]	:	Key	71	DOWN	at	7948    
+8042	[89]	:	Key	71	UP	at	8042    
+28028	[19986]	:	Key	71	DOWN	at	28026   
+28126	[98]	:	Key	71	UP	at	28125   
+33410	[5284]	:	Key	71	DOWN	at	33406   
+33486	[76]	:	Key	71	UP	at	33486   
+58304	[24818]	:	Key	71	DOWN	at	58302   
+58396	[92]	:	Key	71	UP	at	58396   
+75040	[16644]	:	Key	71	DOWN	at	75038   
+75084	[44]	:	Key	71	UP	at	75084   
+92538	[17454]	:	Key	60	DOWN	at	92538   
+92731	[193]	:	Key	60	UP	at	92731   
+96044	[3313]	:	Key	71	DOWN	at	96044   
+96952	[908]	:	time Target is 96920
+98091	[1139]	:	Key	71	DOWN	at	98091   
+103052	[4961]	:	time Target is 103051
+103787	[735]	:	Key	71	DOWN	at	103787  
+109161	[5374]	:	time Target is 109161
+109887	[726]	:	Key	71	DOWN	at	109886  
+115248	[5361]	:	time Target is 115247
+115902	[654]	:	Key	71	DOWN	at	115902  
+134669	[18767]	:	Key	71	DOWN	at	134669  
+135740	[1071]	:	time Target is 135735
+142079	[6339]	:	time Target is 142079
+148403	[6324]	:	time Target is 148403
+154726	[6323]	:	time Target is 154726
+175756	[21030]	:	Key	71	DOWN	at	175755  
+175838	[82]	:	Key	71	UP	at	175837  
+181006	[5168]	:	Key	71	DOWN	at	181006  
+181087	[81]	:	Key	71	UP	at	181086  
+186574	[5487]	:	Key	71	DOWN	at	186574  
+186669	[95]	:	Key	71	UP	at	186668  
+196414	[9745]	:	Key	71	DOWN	at	196414  
+196508	[94]	:	Key	71	UP	at	196507  
+201855	[5347]	:	Key	71	DOWN	at	201855  
+202682	[827]	:	Key	71	UP	at	202013  
+202708	[26]	:	time Target is 202708
+203211	[503]	:	Key	71	DOWN	at	203210  
+207812	[4601]	:	time Target is 207812
+207935	[123]	:	Key	71	DOWN	at	207934  
+212915	[4980]	:	time Target is 212915
+217978	[5063]	:	Key	71	DOWN	at	217965  
+219762	[1784]	:	Key	71	UP	at	218138  
+264027	[44265]	:	Key	71	DOWN	at	264026  
+264108	[81]	:	Key	71	UP	at	264108  
+268747	[4639]	:	Key	71	DOWN	at	268747  
+269540	[793]	:	Key	71	UP	at	268926  
+269560	[20]	:	time Target is 269559
+269580	[20]	:	Key	71	DOWN	at	269580  
+274648	[5068]	:	time Target is 274648
+279729	[5081]	:	time Target is 279729
+280427	[698]	:	Key	71	DOWN	at	280427  
+284818	[4391]	:	time Target is 284818
+301375	[16557]	:	Key	71	DOWN	at	301375  
+301440	[65]	:	Key	71	UP	at	301439  
+305583	[4143]	:	Key	92	DOWN	at	305582  
+305594	[11]	:	Key	92	UP	at	305594  
+306010	[416]	:	Key	71	DOWN	at	306010  
+306802	[792]	:	Key	71	UP	at	306140  
+306825	[23]	:	time Target is 306825
+307564	[739]	:	Key	71	DOWN	at	307563  
+311921	[4357]	:	time Target is 311920
+316996	[5075]	:	time Target is 316996
+317518	[522]	:	Key	71	DOWN	at	317518  
+322084	[4566]	:	time Target is 322084
+336380	[14296]	:	Key	71	DOWN	at	336380  
+336509	[129]	:	Key	71	UP	at	336509  
+341435	[4926]	:	Key	71	DOWN	at	341435  
+342226	[791]	:	Key	71	UP	at	341596  
+342243	[17]	:	time Target is 342243
+342939	[696]	:	Key	71	DOWN	at	342938  
+347336	[4397]	:	time Target is 347336
+347999	[663]	:	Key	71	DOWN	at	347999  
+352427	[4428]	:	time Target is 352427
+357505	[5078]	:	time Target is 357505
+413759	[56254]	:	Key	71	DOWN	at	413759  
+413820	[61]	:	Key	71	UP	at	413819  
+430718	[16898]	:	Key	71	DOWN	at	430717  
+430780	[62]	:	Key	71	UP	at	430780  
+446011	[15231]	:	Key	71	DOWN	at	446010  
+446111	[100]	:	Key	71	UP	at	446110  
+458829	[12718]	:	Key	71	DOWN	at	458829  
+458923	[94]	:	Key	71	UP	at	458922  
+478350	[19427]	:	Key	71	DOWN	at	478349  
+480936	[2586]	:	time Target is 480936
+481211	[275]	:	Key	71	DOWN	at	481211  
+486279	[5068]	:	time Target is 486279
+491609	[5330]	:	time Target is 491608
+492074	[465]	:	Key	71	DOWN	at	492073  
+496939	[4865]	:	time Target is 496939
+502276	[5337]	:	time Target is 502275
+502814	[538]	:	Key	71	DOWN	at	502814  
+507623	[4809]	:	time Target is 507623
+512952	[5329]	:	time Target is 512952
+514124	[1172]	:	Key	71	DOWN	at	514123  
+518288	[4164]	:	time Target is 518288
+523616	[5328]	:	time Target is 523616
+524254	[638]	:	Key	71	DOWN	at	524254  
+528953	[4699]	:	time Target is 528953
+529530	[577]	:	Key	71	DOWN	at	529530  
+534291	[4761]	:	time Target is 534291
+539618	[5327]	:	time Target is 539618
+539996	[378]	:	Key	71	DOWN	at	539995  
+544960	[4964]	:	time Target is 544960
+545515	[555]	:	Key	71	DOWN	at	545515  
+550300	[4785]	:	time Target is 550300
+555624	[5324]	:	time Target is 555624
+560946	[5322]	:	time Target is 560946
+561488	[542]	:	Key	71	DOWN	at	561487  
+566289	[4801]	:	time Target is 566289
+566683	[394]	:	Key	71	DOWN	at	566681  
+571636	[4953]	:	time Target is 571636
+572480	[844]	:	Key	71	DOWN	at	572479  
+576978	[4498]	:	time Target is 576978
+582303	[5325]	:	time Target is 582303
+582716	[413]	:	Key	71	DOWN	at	582716  
+587643	[4927]	:	time Target is 587643
+592963	[5320]	:	time Target is 592963
+593438	[475]	:	Key	71	DOWN	at	593438  
+598294	[4856]	:	time Target is 598294
+603620	[5326]	:	time Target is 603620
+604092	[472]	:	Key	71	DOWN	at	604091  
+608960	[4868]	:	time Target is 608960
+614283	[5323]	:	time Target is 614283
+614829	[546]	:	Key	71	DOWN	at	614828  
+619619	[4790]	:	time Target is 619619
+624940	[5321]	:	time Target is 624940
+625628	[688]	:	Key	71	DOWN	at	625628  
+630278	[4650]	:	time Target is 630278
+630991	[713]	:	Key	71	DOWN	at	630991  
+635618	[4627]	:	time Target is 635618
+636029	[411]	:	Key	71	DOWN	at	636028  
+640955	[4926]	:	time Target is 640955
+642300	[1345]	:	Key	71	DOWN	at	642299  
+646296	[3996]	:	time Target is 646296
+646797	[501]	:	Key	71	DOWN	at	646797  
+651642	[4845]	:	time Target is 651642
+656963	[5321]	:	time Target is 656963
+658206	[1243]	:	Key	71	DOWN	at	658206  
+662300	[4094]	:	time Target is 662300
+667622	[5322]	:	time Target is 667622
+668235	[613]	:	Key	71	DOWN	at	668234  
+672963	[4728]	:	time Target is 672963
+673099	[136]	:	Key	71	DOWN	at	673099  
+678307	[5208]	:	time Target is 678307
+678715	[408]	:	Key	71	DOWN	at	678715  
+683645	[4930]	:	time Target is 683645
+683931	[286]	:	Key	71	DOWN	at	683931  
+688983	[5052]	:	time Target is 688983
+690108	[1125]	:	Key	71	DOWN	at	690108  
+694320	[4212]	:	time Target is 694320
+694990	[670]	:	Key	71	DOWN	at	694990  
+699650	[4660]	:	time Target is 699650
+699934	[284]	:	Key	71	DOWN	at	699934  
+704985	[5051]	:	time Target is 704985
+705596	[611]	:	Key	71	DOWN	at	705596  
+710322	[4726]	:	time Target is 710322
+710832	[510]	:	Key	71	DOWN	at	710831  
+715662	[4830]	:	time Target is 715662
+716252	[590]	:	Key	71	DOWN	at	716252  
+721000	[4748]	:	time Target is 721000
+726324	[5324]	:	time Target is 726324
+726701	[377]	:	Key	71	DOWN	at	726701  
+731662	[4961]	:	time Target is 731662
+732111	[449]	:	Key	71	DOWN	at	732109  
+737002	[4891]	:	time Target is 737002
+737629	[627]	:	Key	71	DOWN	at	737628  
+742337	[4708]	:	time Target is 742337
+747660	[5323]	:	time Target is 747660
+748030	[370]	:	Key	71	DOWN	at	748029  
+753002	[4972]	:	time Target is 753002
+753356	[354]	:	Key	71	DOWN	at	753356  
+758340	[4984]	:	time Target is 758340
+758862	[522]	:	Key	71	DOWN	at	758861  
+763677	[4815]	:	time Target is 763677
+763946	[269]	:	Key	71	DOWN	at	763946  
+769014	[5068]	:	time Target is 769014
+769533	[519]	:	Key	71	DOWN	at	769533  
+774349	[4816]	:	time Target is 774349
+774798	[449]	:	Key	71	DOWN	at	774797  
+779683	[4885]	:	time Target is 779683
+780074	[391]	:	Key	71	DOWN	at	780074  
+785018	[4944]	:	time Target is 785018
+785983	[965]	:	Key	71	DOWN	at	785981  
+790360	[4377]	:	time Target is 790360
+795682	[5322]	:	time Target is 795682
+796077	[395]	:	Key	71	DOWN	at	796076  
+801014	[4937]	:	time Target is 801014
+806339	[5325]	:	time Target is 806339
+806858	[519]	:	Key	71	DOWN	at	806858  
+811676	[4818]	:	time Target is 811676
+812319	[643]	:	Key	71	DOWN	at	812319  
+817016	[4697]	:	time Target is 817016
+817518	[502]	:	Key	71	DOWN	at	817517  
+822353	[4835]	:	time Target is 822353
+827679	[5326]	:	time Target is 827679
+828157	[478]	:	Key	71	DOWN	at	828156  
+833018	[4861]	:	time Target is 833018
+833563	[545]	:	Key	71	DOWN	at	833563  
+838353	[4790]	:	time Target is 838353
+838843	[490]	:	Key	71	DOWN	at	838843  
+843690	[4847]	:	time Target is 843690
+844109	[419]	:	Key	71	DOWN	at	844107  
+849027	[4918]	:	time Target is 849027
+850188	[1161]	:	Key	71	DOWN	at	850188  
+854366	[4178]	:	time Target is 854366
+855530	[1164]	:	Key	71	DOWN	at	855530  
+859708	[4178]	:	time Target is 859708
+860126	[418]	:	Key	71	DOWN	at	860126  
+865047	[4921]	:	time Target is 865047
+865983	[936]	:	Key	71	DOWN	at	865982  
+870382	[4399]	:	time Target is 870382
+870814	[432]	:	Key	71	DOWN	at	870814  
+875718	[4904]	:	time Target is 875718
+876158	[440]	:	Key	71	DOWN	at	876157  
+881054	[4896]	:	time Target is 881054
+881627	[573]	:	Key	71	DOWN	at	881627  
+886393	[4766]	:	time Target is 886393
+887211	[818]	:	Key	71	DOWN	at	887211  
+891730	[4519]	:	time Target is 891730
+892747	[1017]	:	Key	71	DOWN	at	892747  
+897064	[4317]	:	time Target is 897064
+902386	[5322]	:	time Target is 902386
+903391	[1005]	:	Key	71	DOWN	at	903390  
+907461	[4070]	:	Key	71	DOWN	at	907306  
+910276	[2815]	:	time Target is 910276
+911181	[905]	:	Key	71	DOWN	at	911181  
+915343	[4162]	:	Key	71	DOWN	at	915229  
+918161	[2818]	:	time Target is 918161
+919182	[1021]	:	Key	71	DOWN	at	919182  
+923501	[4319]	:	time Target is 923501
+923981	[480]	:	Key	71	DOWN	at	923981  
+928841	[4860]	:	time Target is 928841
+929358	[517]	:	Key	71	DOWN	at	929358  
+934177	[4819]	:	time Target is 934177
+934654	[477]	:	Key	71	DOWN	at	934654  
+939514	[4860]	:	time Target is 939514
+944837	[5323]	:	time Target is 944837
+945583	[746]	:	Key	71	DOWN	at	945582  
+950179	[4596]	:	time Target is 950179
+950684	[505]	:	Key	71	DOWN	at	950684  
+954477	[3793]	:	Key	71	UP	at	950827  
+1039483	[85006]	:	Key	71	DOWN	at	1039483 
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1040727	[1244]	:	Key	71	UP	at	1039680 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1040992	[265]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1046300	[5308]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1051608	[5308]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1056914	[5306]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1062227	[5313]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1069282	[7055]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)

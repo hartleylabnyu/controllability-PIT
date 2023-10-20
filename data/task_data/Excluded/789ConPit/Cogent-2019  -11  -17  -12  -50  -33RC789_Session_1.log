@@ -1,0 +1,1103 @@
+Cog2000 log file Sun Nov 17 12:50:34 2019
+gprim v1.33 Compiled:Aug 12 2015 (GLib DirectDraw v7 DX12.0 Compiled:Aug 12 2015)
+Display:1024x768x32 59.99Hz
+Attaching C:\Program Files\Cogent2000v1.33\Toolbox\CogInput.mexw64
+CogInput v1.05 Compiled: May 20 2010
+7	[7]	:	COGENT START
+8101	[8094]	:	Key	71	DOWN	at	8096    
+8178	[77]	:	Key	71	UP	at	8177    
+24101	[15923]	:	Key	71	DOWN	at	24100   
+24196	[95]	:	Key	71	UP	at	24195   
+28710	[4514]	:	Key	71	DOWN	at	28708   
+28770	[60]	:	Key	71	UP	at	28770   
+38693	[9923]	:	Key	71	DOWN	at	38692   
+38739	[46]	:	Key	71	UP	at	38738   
+51761	[13022]	:	Key	71	DOWN	at	51760   
+51826	[65]	:	Key	71	UP	at	51825   
+71396	[19570]	:	Key	71	DOWN	at	71396   
+72315	[919]	:	time Target is 72298
+72672	[357]	:	Key	71	DOWN	at	72672   
+78418	[5746]	:	time Target is 78417
+78769	[351]	:	Key	71	DOWN	at	78769   
+84525	[5756]	:	time Target is 84524
+84818	[293]	:	Key	71	DOWN	at	84818   
+90628	[5810]	:	time Target is 90627
+91024	[396]	:	Key	71	DOWN	at	91024   
+99908	[8884]	:	Key	71	DOWN	at	99908   
+100987	[1079]	:	time Target is 100980
+107319	[6332]	:	time Target is 107318
+113641	[6322]	:	time Target is 113640
+119962	[6321]	:	time Target is 119961
+138773	[18811]	:	Key	71	DOWN	at	138772  
+138932	[159]	:	Key	71	UP	at	138932  
+142964	[4032]	:	Key	71	DOWN	at	142964  
+143104	[140]	:	Key	71	UP	at	143104  
+149731	[6627]	:	Key	71	DOWN	at	149731  
+149955	[224]	:	Key	71	UP	at	149955  
+162192	[12237]	:	Key	71	DOWN	at	162192  
+162290	[98]	:	Key	71	UP	at	162290  
+164483	[2193]	:	Key	71	DOWN	at	164483  
+165315	[832]	:	Key	71	UP	at	164592  
+165340	[25]	:	time Target is 165340
+165670	[330]	:	Key	71	DOWN	at	165669  
+170444	[4774]	:	time Target is 170444
+170867	[423]	:	Key	71	DOWN	at	170867  
+175527	[4660]	:	Key	71	DOWN	at	175220  
+175527	[0]	:	Key	71	UP	at	175376  
+178081	[2554]	:	Key	71	DOWN	at	177891  
+178082	[1]	:	Key	71	UP	at	178001  
+180664	[2582]	:	time Target is 180664
+181218	[554]	:	Key	71	DOWN	at	181218  
+184974	[3756]	:	Key	71	UP	at	181348  
+186885	[1911]	:	Key	71	DOWN	at	186885  
+187670	[785]	:	Key	71	UP	at	187024  
+187697	[27]	:	time Target is 187696
+195268	[7571]	:	Key	71	DOWN	at	195267  
+195477	[209]	:	Key	71	UP	at	195477  
+196546	[1069]	:	Key	71	DOWN	at	196546  
+197337	[791]	:	Key	71	UP	at	196656  
+197359	[22]	:	time Target is 197359
+197777	[418]	:	Key	71	DOWN	at	197777  
+202427	[4650]	:	Key	71	DOWN	at	202372  
+204996	[2569]	:	time Target is 204996
+205569	[573]	:	Key	71	DOWN	at	205569  
+210087	[4518]	:	time Target is 210087
+210495	[408]	:	Key	71	DOWN	at	210495  
+215169	[4674]	:	time Target is 215169
+215713	[544]	:	Key	71	DOWN	at	215712  
+220255	[4542]	:	time Target is 220255
+270144	[49889]	:	Key	71	DOWN	at	270143  
+270303	[159]	:	Key	71	UP	at	270303  
+271859	[1556]	:	Key	71	DOWN	at	271859  
+272650	[791]	:	Key	71	UP	at	271951  
+272672	[22]	:	time Target is 272672
+273040	[368]	:	Key	71	DOWN	at	273040  
+277765	[4725]	:	time Target is 277764
+278353	[588]	:	Key	71	DOWN	at	278353  
+282853	[4500]	:	time Target is 282852
+287928	[5075]	:	time Target is 287928
+289298	[1370]	:	Key	71	DOWN	at	289297  
+292216	[2918]	:	Key	71	UP	at	289425  
+295153	[2937]	:	Key	71	DOWN	at	295153  
+295236	[83]	:	Key	71	UP	at	295236  
+296497	[1261]	:	Key	71	DOWN	at	296497  
+297289	[792]	:	Key	71	UP	at	296610  
+297304	[15]	:	time Target is 297304
+297714	[410]	:	Key	71	DOWN	at	297714  
+302394	[4680]	:	time Target is 302394
+307470	[5076]	:	time Target is 307470
+312545	[5075]	:	time Target is 312545
+323999	[11454]	:	Key	71	DOWN	at	323999  
+324127	[128]	:	Key	71	UP	at	324127  
+340565	[16438]	:	Key	71	DOWN	at	340564  
+340722	[157]	:	Key	71	UP	at	340722  
+359282	[18560]	:	Key	71	DOWN	at	359281  
+359424	[142]	:	Key	71	UP	at	359423  
+371060	[11636]	:	Key	71	DOWN	at	371059  
+371236	[176]	:	Key	71	UP	at	371236  
+398911	[27675]	:	Key	71	DOWN	at	398910  
+401507	[2596]	:	time Target is 401507
+402100	[593]	:	Key	71	DOWN	at	402099  
+406872	[4772]	:	time Target is 406872
+412220	[5348]	:	time Target is 412220
+412562	[342]	:	Key	71	DOWN	at	412561  
+417571	[5009]	:	time Target is 417571
+417923	[352]	:	Key	71	DOWN	at	417923  
+422934	[5011]	:	time Target is 422933
+423298	[364]	:	Key	71	DOWN	at	423298  
+428301	[5003]	:	time Target is 428301
+433630	[5329]	:	time Target is 433630
+434084	[454]	:	Key	71	DOWN	at	434084  
+438972	[4888]	:	time Target is 438972
+439443	[471]	:	Key	71	DOWN	at	439443  
+444305	[4862]	:	time Target is 444305
+444720	[415]	:	Key	71	DOWN	at	444719  
+449648	[4928]	:	time Target is 449648
+450079	[431]	:	Key	71	DOWN	at	450079  
+454982	[4903]	:	time Target is 454982
+455762	[780]	:	Key	71	DOWN	at	455762  
+460318	[4556]	:	time Target is 460318
+460801	[483]	:	Key	71	DOWN	at	460801  
+465652	[4851]	:	time Target is 465652
+466254	[602]	:	Key	71	DOWN	at	466254  
+470991	[4737]	:	time Target is 470991
+472002	[1011]	:	Key	71	DOWN	at	472002  
+476337	[4335]	:	time Target is 476337
+481660	[5323]	:	time Target is 481660
+482036	[376]	:	Key	71	DOWN	at	482036  
+486996	[4960]	:	time Target is 486996
+487472	[476]	:	Key	71	DOWN	at	487472  
+492330	[4858]	:	time Target is 492330
+493025	[695]	:	Key	71	DOWN	at	493025  
+497674	[4649]	:	time Target is 497674
+498307	[633]	:	Key	71	DOWN	at	498307  
+503010	[4703]	:	time Target is 503010
+508331	[5321]	:	time Target is 508331
+508833	[502]	:	Key	71	DOWN	at	508832  
+513667	[4834]	:	time Target is 513667
+514193	[526]	:	Key	71	DOWN	at	514193  
+519004	[4811]	:	time Target is 519004
+524317	[5313]	:	time Target is 524317
+524702	[385]	:	Key	71	DOWN	at	524702  
+529653	[4951]	:	time Target is 529653
+530003	[350]	:	Key	71	DOWN	at	530003  
+535014	[5011]	:	time Target is 535014
+540360	[5346]	:	time Target is 540360
+541216	[856]	:	Key	71	DOWN	at	541215  
+545697	[4481]	:	time Target is 545697
+546563	[866]	:	Key	71	DOWN	at	546561  
+551031	[4468]	:	time Target is 551031
+551442	[411]	:	Key	71	DOWN	at	551441  
+556374	[4932]	:	time Target is 556374
+556847	[473]	:	Key	71	DOWN	at	556847  
+561715	[4868]	:	time Target is 561715
+562596	[881]	:	Key	71	DOWN	at	562595  
+567046	[4450]	:	time Target is 567046
+567504	[458]	:	Key	71	DOWN	at	567504  
+572387	[4883]	:	time Target is 572387
+577705	[5318]	:	time Target is 577705
+583030	[5325]	:	time Target is 583030
+583600	[570]	:	Key	71	DOWN	at	583600  
+588366	[4766]	:	time Target is 588366
+588718	[352]	:	Key	71	DOWN	at	588718  
+593435	[4717]	:	Key	71	DOWN	at	593315  
+593436	[1]	:	Key	71	UP	at	593422  
+596255	[2819]	:	time Target is 596255
+596723	[468]	:	Key	71	DOWN	at	596723  
+601588	[4865]	:	time Target is 601588
+602001	[413]	:	Key	71	DOWN	at	602000  
+606929	[4928]	:	time Target is 606929
+607312	[383]	:	Key	71	DOWN	at	607312  
+612268	[4956]	:	time Target is 612268
+612420	[152]	:	Key	71	DOWN	at	612419  
+617604	[5184]	:	time Target is 617604
+618127	[523]	:	Key	71	DOWN	at	618127  
+622948	[4821]	:	time Target is 622948
+623553	[605]	:	Key	71	DOWN	at	623552  
+628286	[4733]	:	time Target is 628286
+628756	[470]	:	Key	71	DOWN	at	628756  
+633626	[4870]	:	time Target is 633626
+638951	[5325]	:	time Target is 638951
+639363	[412]	:	Key	71	DOWN	at	639362  
+644288	[4925]	:	time Target is 644288
+644945	[657]	:	Key	71	DOWN	at	644944  
+649639	[4694]	:	time Target is 649639
+650127	[488]	:	Key	71	DOWN	at	650127  
+654974	[4847]	:	time Target is 654974
+660299	[5325]	:	time Target is 660299
+665626	[5327]	:	time Target is 665626
+666097	[471]	:	Key	71	DOWN	at	666096  
+670982	[4885]	:	time Target is 670982
+676305	[5323]	:	time Target is 676305
+676864	[559]	:	Key	71	DOWN	at	676864  
+681679	[4815]	:	time Target is 681679
+682239	[560]	:	Key	71	DOWN	at	682239  
+687015	[4776]	:	time Target is 687015
+687618	[603]	:	Key	71	DOWN	at	687617  
+692355	[4737]	:	time Target is 692355
+692771	[416]	:	Key	71	DOWN	at	692771  
+697693	[4922]	:	time Target is 697693
+703007	[5314]	:	time Target is 703007
+703342	[335]	:	Key	71	DOWN	at	703342  
+708347	[5005]	:	time Target is 708347
+713695	[5348]	:	time Target is 713695
+714079	[384]	:	Key	71	DOWN	at	714079  
+719029	[4950]	:	time Target is 719029
+719474	[445]	:	Key	71	DOWN	at	719474  
+724365	[4891]	:	time Target is 724365
+729690	[5325]	:	time Target is 729690
+730097	[407]	:	Key	71	DOWN	at	730096  
+735047	[4950]	:	time Target is 735047
+740371	[5324]	:	time Target is 740371
+740756	[385]	:	Key	71	DOWN	at	740755  
+745711	[4955]	:	time Target is 745711
+746180	[469]	:	Key	71	DOWN	at	746179  
+751079	[4899]	:	time Target is 751079
+751615	[536]	:	Key	71	DOWN	at	751615  
+756412	[4797]	:	time Target is 756412
+757135	[723]	:	Key	71	DOWN	at	757135  
+761748	[4613]	:	time Target is 761748
+767070	[5322]	:	time Target is 767070
+767508	[438]	:	Key	71	DOWN	at	767507  
+772413	[4905]	:	time Target is 772413
+772785	[372]	:	Key	71	DOWN	at	772785  
+777755	[4970]	:	time Target is 777755
+778352	[597]	:	Key	71	DOWN	at	778351  
+783092	[4740]	:	time Target is 783092
+783507	[415]	:	Key	71	DOWN	at	783507  
+788431	[4924]	:	time Target is 788431
+788850	[419]	:	Key	71	DOWN	at	788849  
+793772	[4922]	:	time Target is 793772
+799093	[5321]	:	time Target is 799093
+799538	[445]	:	Key	71	DOWN	at	799538  
+804431	[4893]	:	time Target is 804431
+804980	[549]	:	Key	71	DOWN	at	804979  
+809764	[4784]	:	time Target is 809764
+810320	[556]	:	Key	71	DOWN	at	810320  
+815098	[4778]	:	time Target is 815098
+820423	[5325]	:	time Target is 820423
+825747	[5324]	:	time Target is 825747
+826097	[350]	:	Key	71	DOWN	at	826097  
+831082	[4985]	:	time Target is 831082
+831454	[372]	:	Key	71	DOWN	at	831454  
+836423	[4969]	:	time Target is 836423
+836752	[329]	:	Key	71	DOWN	at	836752  
+841763	[5011]	:	time Target is 841763
+842144	[381]	:	Key	71	DOWN	at	842144  
+847097	[4953]	:	time Target is 847097
+847730	[633]	:	Key	71	DOWN	at	847730  
+852431	[4701]	:	time Target is 852431
+857754	[5323]	:	time Target is 857754
+858146	[392]	:	Key	71	DOWN	at	858146  
+863089	[4943]	:	time Target is 863089
+863454	[365]	:	Key	71	DOWN	at	863454  
+868422	[4968]	:	time Target is 868422
+868931	[509]	:	Key	71	DOWN	at	868931  
+873755	[4824]	:	time Target is 873755
+874514	[759]	:	Key	71	DOWN	at	874513  
+878058	[3544]	:	Key	71	UP	at	874639  
+996257	[118199]	:	Key	71	DOWN	at	996256  
+997048	[791]	:	Key	71	UP	at	996383  
+997319	[271]	:	time Target is 997319
+997696	[377]	:	Key	71	DOWN	at	997696  
+1002693	[4997]	:	time Target is 1002693
+1003166	[473]	:	Key	71	DOWN	at	1003166 
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1009187	[6021]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1014499	[5312]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1019806	[5307]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1025558	[5752]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1030869	[5311]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1036180	[5311]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1041492	[5312]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1046796	[5304]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1052100	[5304]	:	Key	70	DOWN	at	1052047 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1054904	[2804]	:	time Target is -2000
+1055281	[377]	:	Key	70	UP	at	1055280 
+1055282	[1]	:	Key	91	UP	at	1055280 
+1055392	[110]	:	Key	3	UP	at	1055391 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1060218	[4826]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1065533	[5315]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1070846	[5313]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1077310	[6464]	:	Key	59	UP	at	1076591 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1077596	[286]	:	time Target is -2000
+1077700	[104]	:	Key	55	DOWN	at	1077698 
+1077745	[45]	:	Key	55	UP	at	1077745 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1082914	[5169]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1088227	[5313]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1093605	[5378]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1098915	[5310]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1104217	[5302]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1109517	[5300]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1114820	[5303]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1120117	[5297]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1125420	[5303]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1130741	[5321]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1136056	[5315]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1141366	[5310]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1146414	[5048]	:	Key	3	UP	at	1145890 
+1146415	[1]	:	Key	60	UP	at	1145966 
+1146415	[0]	:	Key	70	UP	at	1145966 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1146676	[261]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1151949	[5273]	:	Key	52	DOWN	at	1151539 
+1151950	[1]	:	Key	52	UP	at	1151615 
+1151952	[2]	:	Key	52	DOWN	at	1151697 
+1151952	[0]	:	Key	52	UP	at	1151760 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1154495	[2543]	:	Key	71	DOWN	at	1154050 
+1154495	[0]	:	Key	71	UP	at	1154096 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1157040	[2545]	:	Key	71	UP	at	1156305 
+1157041	[1]	:	Key	71	DOWN	at	1156530 
+1157042	[1]	:	Key	71	UP	at	1156607 
+1157043	[1]	:	Key	71	DOWN	at	1156736 
+1157043	[0]	:	Key	71	UP	at	1156801 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1159585	[2542]	:	Key	71	UP	at	1158926 
+1159586	[1]	:	Key	52	DOWN	at	1159566 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1162130	[2544]	:	Key	60	DOWN	at	1161696 
+1162131	[1]	:	Key	70	DOWN	at	1161842 
+1162132	[1]	:	Key	70	UP	at	1162112 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1165248	[3116]	:	Key	60	DOWN	at	1165245 
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1168049	[2801]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)
+1173357	[5308]	:	time Target is -2000
+ERR gprim:gFillRect Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gText GetDC() failed (DDERR_SURFACELOST)
+ERR gprim:gBltRAS Blt() Failed (DDERR_SURFACELOST)
+ERR gprim:gFlip  (DDERR_SURFACELOST)

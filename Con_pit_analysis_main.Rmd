@@ -1,0 +1,595 @@
+---
+title: "Adolescents flexibly adapt action selection based on controllability inferences"
+author: "Noam Goldway and Hillary Raab"
+date: "2023-10-04"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Libraries
+
+```{r libraries}
+library(R.matlab)
+library(tidyverse)
+library(dplyr)
+library(gridExtra)
+library(pander)
+library(psych)
+library(afex)
+library(cowplot)
+library(nlme)
+library(emmeans)
+library(rempsyc)
+library(modelbased)
+library(see)
+library(report)
+library(grid)
+library(ggplot2)
+library(lme4)
+library(segmented)
+library(segmented)
+
+
+```
+## Define working directory
+```{r wd}
+#Your main WD goes here: 
+WD<-'/Users/noamgoldway/Library/CloudStorage/Box-Box/HartleyLab_SHARED/1_STUDIES/ConPit_HillaryCareen/Analyses/To_git/'
+```
+
+
+## Data Import and Cleaning
+
+```{r data_cleaning}
+
+path<-paste0(WD,'data/task_data/')
+studyIDAll_chr <-  list.files(path)
+studyIDAll_chr <- studyIDAll_chr[!grepl('Excluded', studyIDAll_chr)]
+studyIDAll <- str_remove_all(studyIDAll_chr,"ConPit")
+studyIDAll <- as.numeric(studyIDAll)
+studyIDAll_chr <- paste(studyIDAll,"ConPit",sep="")
+allPIT <- data.frame()
+
+for(subj in 1:length(studyIDAll_chr)){
+  data <- readMat(paste0(path,studyIDAll_chr[subj],"/",studyIDAll[subj],"_TaskDataLearning_Session1.mat"))
+  data <- as.data.frame(data)
+  data <- cbind(subjID = studyIDAll[subj], data) 
+  allPIT <- rbind(allPIT,data)
+}
+
+colnames(allPIT) <- c("subjID","trialNum","trialType","timeCue","response1Cue","response2Cue","time2target","timeTarget","keyResp","keyTime","RT","Response","corrResp","foil","targetDisplayTime","timeOutcome","ITI","Won","Condition")
+
+allPIT$subjID <- as.factor(allPIT$subjID)
+allPIT$Condition <- as.factor(allPIT$Condition)
+allPIT$trialType <- as.factor(allPIT$trialType)
+levels(allPIT$trialType) <- c("GW","GAL","NGW","NGAL") #rename
+
+### LOAD AGE DATA
+age.csv<-paste0(WD,'data/age_cov_n90.csv')
+age <- read.csv(age.csv, header = TRUE, stringsAsFactors = FALSE)
+```
+
+
+```{r data_preprocessing}
+
+age <- age %>%
+  mutate(subjID = str_remove_all(subjID, "ConPit"))
+age$subjID <- as.factor(age$subjID)
+age$gender <- as.factor(age$gender)
+age$z_age<-scale(age$age,center=TRUE,scale=TRUE) #age as continuous variable, mean centered and scaled
+age$z_ageSq<-age[,"z_age"]^2
+
+age$Age.Group <- factor(age$Age.Group, levels=c('Child','Teen','Adult')) #order by age
+levels(age$Age.Group) <- c("Children","Adolescents","Adults") #rename
+
+allPIT <- merge(allPIT,age,by="subjID")
+allPIT$Condition <- factor(allPIT$Condition, levels=c('8020','5050'))
+levels(allPIT$Condition) <- c("Controllable","Uncontrollable") #rename
+
+### REMOVE TRIALS RESPONDED EARLY
+allPIT <- allPIT[allPIT$Response!=5,]
+allPIT <- allPIT[allPIT$Response!=3,]
+
+#plot colors
+color1 = "#3A1142"
+color2 = "#35877F"
+
+```
+
+
+```{r manipulation_and_preparation }
+
+# Calculate the total tickets won per subject 
+PavBias_overall <- allPIT %>% 
+  group_by(subjID, age, z_age, z_ageSq, Age.Group) %>% 
+  summarize(totalTickets = sum(Won, na.rm = TRUE))
+
+# Calculate tickets won per condition 
+PavBias_byCondition <- allPIT %>% 
+  group_by(subjID, Condition, age, z_age, z_ageSq, Age.Group) %>% 
+  summarize(tickets = sum(Won, na.rm = TRUE))
+
+# Calculate the difference in tickets won between different conditions
+PavBias_byCondition <- PavBias_byCondition %>% 
+  group_by(subjID, age, z_age, z_ageSq, Age.Group) %>% 
+  mutate(diffTickets = lag(tickets) - tickets)
+
+```
+
+##  Plot Tickets Won per Condition 
+
+```{r visualization}
+
+# Create a scatter plot with smoothed lines per condition
+ticketsWon_condition_plot <- ggplot(PavBias_byCondition, aes(x = z_age, y = tickets, color = Condition)) +
+  geom_point(size = 2) +
+  geom_smooth(method = "glm", formula = y ~ poly(x, 2)) +
+  geom_hline(yintercept = 0, size = 2, linetype = "dashed", color = "black") +
+  labs(x = "Age", y = "Tickets won") +
+  theme_classic(base_size = 12) +
+  scale_color_manual(values = c(color1, color2))
+
+# Display the created plot
+plot(ticketsWon_condition_plot)
+
+```
+
+##  Model Comparisons - Tickets Won
+
+```{r model_comparisons }
+
+
+TicketsConAge.m <- lm(tickets ~ Condition * z_age, data = PavBias_byCondition)
+TicketsConAgeSq.m <- lm(tickets ~ Condition * (z_age + z_ageSq), data = PavBias_byCondition)
+
+# Compare models 
+anova(TicketsConAge.m, TicketsConAgeSq.m)
+AIC(TicketsConAge.m, TicketsConAgeSq.m)
+summary(TicketsConAgeSq.m)
+
+
+```
+
+## Piecewise Linear Regression Tickets Won
+
+```{r piecewise_regression }
+
+# Select data and convert to numeric
+data_for_change <- subset(PavBias_byCondition, Condition == "Controllable", 
+                          select = c(tickets, z_age))
+data_for_change$z_age <- as.numeric(as.character(data_for_change$z_age))
+data_for_change$tickets <- as.numeric(as.character(data_for_change$tickets))
+
+# Perform piecewise linear regression
+model_pw <- segmented(lm(tickets ~ z_age, data = data_for_change))
+
+# Extract and output model details
+summary(model_pw)  
+model_pw$psi  # Estimated breakpoint in z_age=0.031 which correspond to 16.5 years 
+
+# Derive and display t-values and p-values
+slope_t <- slope(model_pw)
+t_value_pre <- slope_t$z_age[5]
+t_value_post <- slope_t$z_age[6]
+n <- nrow(data_for_change)
+p <- 2 + length(model_pw$psi)  # Parameters: Intercept, slope(s), and breakpoints
+df <- n - p  # Degrees of freedom
+t_values <- c(t_value_pre, t_value_post)
+p_values <- 2 * (1 - pt(abs(t_values), df))
+
+
+```
+
+##  Model Free Pavlovian Bias 
+
+```{r pavlovian_bias }
+# #add presses on go to win + presses on no go to win then divide that by all presses; reward based invigoration
+calculate_RewInv <- function(x){((sum(x$trialType=='GW' & x$Response=='1')) + (sum(x$trialType=='NGW' & x$Response=='1'))) / (sum(x$Response=='1'))} 
+# 
+# #add no presses on go to avoid + no presses on no go to avoid then divide that by all no presses; punishment-based suppression
+calculate_PunSupp <- function(x){((sum(x$trialType=='GAL' & x$Response=='0')) + (sum(x$trialType=='NGAL' & x$Response=='0'))) / (sum(x$Response=='0'))} 
+
+
+#separate into controllable and uncontrollable trials
+All_pit_8020 <- allPIT[allPIT$Condition %in% "Controllable",]
+All_pit_5050 <- allPIT[allPIT$Condition %in% "Uncontrollable",]
+
+RewInv <- by(data = All_pit_8020, INDICES = All_pit_8020$subjID, FUN = calculate_RewInv)
+PavBias_overall$con_rewInv <- RewInv
+
+PunSupp <- by(data = All_pit_8020, INDICES = All_pit_8020$subjID, FUN = calculate_PunSupp)
+PavBias_overall$con_punSupp <- PunSupp
+
+PavBias_overall$con_PavPerBias <- (RewInv + PunSupp)/2
+remove(RewInv,PunSupp)
+
+RewInv <- by(data = All_pit_5050, INDICES = All_pit_5050$subjID, FUN = calculate_RewInv)
+PavBias_overall$uncon_rewInv <- RewInv
+
+PunSupp <- by(data = All_pit_5050, INDICES = All_pit_5050$subjID, FUN = calculate_PunSupp)
+PavBias_overall$uncon_punSupp <- PunSupp
+
+PavBias_overall$uncon_PavPerBias <- (RewInv + PunSupp)/2
+remove(RewInv,PunSupp)
+
+pavbiascombined <- gather(PavBias_overall, condition, PavBiasScore, con_PavPerBias,uncon_PavPerBias, factor_key=TRUE)
+pavbiascombined<- pavbiascombined%>%dplyr::select(c('subjID','age', 'z_age', 'z_ageSq', 'Age.Group', 'condition','PavBiasScore'))
+pavbiascombined$subjID <- as.factor(pavbiascombined$subjID)
+pavbiascombined$condition <- as.factor(pavbiascombined$condition)
+levels(pavbiascombined$condition) <- c("Con","Uncon") #rename
+```
+
+##   Mixed-Effects Model Analyse Pavlovian Bias 
+
+```{r  model_comparisons_pavlovian_bias }
+
+PavBias.age.m <- mixed(PavBiasScore ~ condition*(z_age) + (1 | subjID), data = pavbiascombined, control = lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e6)))
+nice(PavBias.age.m)
+
+PavBias.ageSq.m <- mixed(PavBiasScore ~ condition*(z_age+z_ageSq) + (1 | subjID), data = pavbiascombined, control = lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e6)))
+anova(PavBias.age.m,PavBias.ageSq.m) #adttion of age^2 is not justified 
+
+
+PavBias.age.group.m <- mixed(PavBiasScore ~ condition*Age.Group + (1 | subjID), data = pavbiascombined, control = lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e6)))
+age_con <- emmeans(PavBias.age.group.m, pairwise ~ condition | Age.Group)
+age_con #print post hoc results 
+
+```
+
+
+###  Visualization: Pavlovian  Bias 
+
+```{r visualization_pavlovian_bias }
+
+PavBiasByAgeBin <- pavbiascombined %>%
+  group_by(condition, Age.Group) %>%
+  summarise(N = n(), meanBias = mean(PavBiasScore, na.rm = TRUE), sdBias = sd(PavBiasScore, na.rm = TRUE), seBias = sdBias / sqrt(N))
+
+# Plot figure 3
+condition_PavBias <- ggplot(PavBiasByAgeBin, aes(x = condition, y=PavBiasScore)) +
+  geom_point(data= pavbiascombined, aes(x=condition,y=PavBiasScore,group=subjID,color=Age.Group)) +
+  geom_line(data= pavbiascombined, aes(group=subjID,color=Age.Group),size =1,alpha=.5) +
+  geom_line(data = PavBiasByAgeBin, stat = "identity", aes(group=Age.Group,x=condition,y=meanBias),size=2,color="Black") +
+  geom_errorbar(data = PavBiasByAgeBin, aes(x=condition, y=meanBias, ymin = meanBias - seBias, ymax = meanBias + seBias), width=0.2) +
+  facet_wrap(~Age.Group)  + 
+  expand_limits(y=1.05)+   scale_y_continuous(breaks=c(0.25,0.5,0.75,1))+
+  theme_classic(base_size=20)+
+  geom_hline(yintercept=.5, linetype="dashed", color = "black") +
+  labs(y="Pavlovian performance bias", x= "Condition") + scale_x_discrete(limits=c("Con", "Uncon")) + #label x axis and y-axis
+  theme(legend.position = "None", ) + #change theme
+  scale_color_manual(values = c("steelblue2", "steelblue3","steelblue4"))
+plot(condition_PavBias)
+
+```
+
+## Dynamic Pavlovian Weight (w) 
+
+### Data Import and Merging
+
+```{r dynamic_w_data}
+w.csv<-paste0(WD,'data/w_trial_by_trial.csv')
+w_trialbytrial <- read.csv(w.csv, header = FALSE, stringsAsFactors = TRUE)
+colnames(w_trialbytrial) <- c("subjID", "trial_num", "action", "trial_type", "condition", "w")
+w_trialbytrial$subjID <- as.factor(w_trialbytrial$subjID)
+w_trialbytrial$condition <- factor(w_trialbytrial$condition, levels = c('8020', '5050'))
+levels(w_trialbytrial$condition) <- c("Con", "Uncon")
+w_trialbytrial <- merge(w_trialbytrial, age[, c("subjID", "age", "Age.Group", "z_age", "z_ageSq")], by = "subjID")
+
+firstTrial <- allPIT %>%
+  group_by(subjID, Condition) %>%
+  dplyr::summarize(minTrialNum = min(trialNum)) %>%
+  filter(minTrialNum <= 180) %>%
+  rename(Order = Condition) %>%
+  dplyr:: select(-minTrialNum)
+
+w_trialbytrial <- merge(w_trialbytrial, firstTrial, by = "subjID")
+w_trialbytrial$Order <- ifelse(w_trialbytrial$Order == 'Controllable', 'Controllable first',
+                               ifelse(w_trialbytrial$Order == 'Uncontrollable', 'Uncontrollable first', NA))
+
+w_trialbytrial <- w_trialbytrial %>%
+  mutate(z_trial_num = scale(trial_num),
+         trial_num_per_con = ifelse(trial_num > 180, trial_num - 180, trial_num),
+         z_trial_num_per_con = scale(trial_num_per_con),
+         block = ifelse(trial_num < 180, '1st Block', '2nd Block'),
+         block = as.factor(block))
+
+order_per_subj <- w_trialbytrial %>%
+  distinct(subjID, Order)
+```
+
+### Pavlovian Weight (w) by Age Group and Trial Condition Order
+
+```{r plot_w, fig.cap="Line plot of the mean Pavlovian weight (w) by age group and trial condition order, with error bars indicating standard error of the mean."}
+w_trialbytrial_order_per_agegroup <- w_trialbytrial %>%
+  group_by(Age.Group, trial_num, condition, Order) %>%
+  dplyr::summarise(N = n(), mean_w = mean(w, na.rm = TRUE), sdw = sd(w, na.rm = TRUE), sew = sdw / sqrt(N))
+
+
+w_byagetrialcondition_order <- ggplot(w_trialbytrial_order_per_agegroup, aes(x = trial_num, y = mean_w, color = condition)) +
+  geom_line() +
+  geom_errorbar(aes(ymin = mean_w - sew, ymax = mean_w + sew), alpha = 0.1) +
+  facet_wrap(~Age.Group) +
+  geom_vline(xintercept = 180, size = 1.5, linetype = "dashed", color = "black") +
+  theme_classic(base_size = 20) +
+  theme(axis.title.x = element_blank()) +
+  ylab('Pavlovian weight (w)') +
+  labs(color = "Condition") +
+  scale_color_manual(values = c(color1, color2)) +
+  guides(color = guide_legend(override.aes = list(size = 2))) +
+  scale_x_continuous(breaks = c(90, 270), labels = c("Block 1", "Block 2"))
+
+plot(w_byagetrialcondition_order)
+```
+
+### Mixed-Effects Model Analyses W
+
+```{r w_model}
+
+
+
+w.m <- mixed(w ~ Age.Group * z_trial_num_per_con * Order * condition + (z_trial_num_per_con * condition + 1 | subjID), data = w_trialbytrial, control = lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e6)))
+nice(w.m)
+
+
+
+# Post hoc test function
+run_post_hoc <- function(model, spec, contrasts_at, adjust_method = "none", limit = 41474){
+  effects <- emmeans(model, spec, adjust = adjust_method, pbkrtest.limit = limit)
+  print(contrast(effects, method = "pairwise", at = contrasts_at))
+}
+
+# Run post hoc tests
+run_post_hoc(w.m, ~ condition, list(block = c("Controllable", "Uncontrollable")))
+run_post_hoc(w.m, ~ Order, list(block = c("Con first", "Uncon first")))
+run_post_hoc(w.m, pairwise ~ condition | Age.Group, list(block = c("Con first", "Uncon first")))
+run_post_hoc(w.m, ~ condition | Order, list(block = c("Con first", "Uncon first")))
+```
+
+
+#####supplemental data#### 
+
+## Age histogram
+
+```{r age_histogram}
+
+##age histogram
+pander(count(age, Age.Group, gender))
+
+pander(describeBy(age))
+
+ageHistogram <- ggplot(age, aes(x = floor(age), fill = gender)) + geom_bar() +
+  ylab("Participant Count") + xlab("Age") + guides(fill=guide_legend(title="Gender")) +
+  geom_vline(xintercept=12.5, linetype="dashed", color = "black") + 
+  geom_vline(xintercept=17.5, linetype="dashed", color = "black") + 
+  theme_classic(base_size=14) 
+plot(ageHistogram)
+
+```
+
+### Computational model comparison
+```{r model_comparison}
+
+se <- function(x) {
+  sd(x, na.rm = TRUE) / sqrt(length(x))
+}
+BIC.csv<-paste0(WD,'computational_modeling_code/BIC.csv')
+BIC_models <- read_csv(BIC.csv)
+
+mean_bic <- BIC_models %>%
+  pivot_longer(cols = -subjID, names_to = "model", values_to = "bic") %>%
+  dplyr::group_by(model) %>%
+  dplyr::summarise(mean_bic = mean(bic),  N = n()) %>%
+  mutate(model_name = fct_reorder(model, desc(mean_bic)))
+
+
+ggplot(mean_bic, aes(x = model_name, y = mean_bic, fill = model_name)) +
+  geom_bar(stat = "identity", position = "dodge", color = "black") +
+  geom_text(aes(label = round(mean_bic, 1)), vjust = -0.6, color = "black", size = 4) +
+  scale_fill_brewer(palette = "Blues") +
+  coord_cartesian(ylim = c(350, 390)) +
+  ylab("Mean BIC") +
+  theme_classic(base_size = 12) +
+  theme(
+    legend.position = "right",
+    axis.title.x = element_blank(),
+    axis.text.x = element_blank(),
+  ) +
+  labs(fill = "Model name")
+```
+
+
+### Posterior predictive checks 
+```{r PPC }
+sim_data_path<-paste0(WD,'computational_modeling_code/pcc/')
+
+sim_data_file_list <- list.files(path = sim_data_path, pattern = "\\.csv$", full.names = TRUE)
+
+sim_data <- data.frame()  # Create an empty data frame
+
+for (i in 1:length(sim_data_file_list)) {
+  temp_data <- read.csv(sim_data_file_list[i])
+  temp_data <- as.data.frame(temp_data)
+  subji <- gsub("Sim_subji_(\\d+)\\.csv", "\\1", basename(sim_data_file_list[i]))  # Extract subji from file name
+  temp_data$sim_subji <- subji  # Add subji as a variable
+  sim_data <- rbind(sim_data, temp_data)  # Append temp_data to sim_data
+}
+
+sim_data <- sim_data %>%
+ dplyr:: rename(subjID = subj_i)
+
+# stim:
+# 1: GotoWin
+# 2: GotoAvoid
+# 3: NoGotoWin
+# 4: NoGotoAvoid
+sim_data$trialType <- case_when(
+  sim_data$state == 1 ~ "GW",
+  sim_data$state == 2 ~ "GAL",
+  sim_data$state == 3 ~ "NGW",
+  sim_data$state == 4 ~ "NGAL",
+  TRUE ~ NA_character_
+)
+
+###condition
+sim_data$condition <- case_when(
+  sim_data$block == 5050 ~ "Uncon",
+  sim_data$block == 8020 ~ "Con",
+  TRUE ~ NA_character_
+)
+
+sim_data <- merge(sim_data, age, by = "subjID")
+
+
+###action
+
+sim_data<-  sim_data %>%
+  mutate(go = case_when(
+    action == 1 ~ 0,
+    action == 2 ~ 1,
+  ))
+
+
+sim_action_per_sub_trialType_condition <- sim_data %>% dplyr::group_by(condition,trialType,subjID,Age.Group) %>% dplyr::summarize(meanGo = mean(go, na.rm = TRUE),N = n(), sdAcc = sd(go, na.rm = TRUE),seAcc = sdAcc/(sqrt(N)))
+
+sim_action_trialType_condition <- sim_action_per_sub_trialType_condition %>% dplyr::group_by(condition, trialType,Age.Group) %>% dplyr::summarise(N = n()/10, meanGo_age = mean(meanGo, na.rm = TRUE), sdAction = sd(meanGo, na.rm = TRUE), seAction= sdAction/(sqrt(N)))
+
+sim_action_trialType_condition<-sim_action_trialType_condition %>% dplyr::rename(Condition=condition)
+
+sim_action_trialType_condition<-  sim_action_trialType_condition %>%
+  mutate(Condition = case_when(
+    Condition == "Con" ~ "Controllable",
+    Condition == "Uncon" ~ "Uncontrollable"
+  ))
+
+
+Realaction_per_trialType_condition <- allPIT %>% dplyr::group_by(Condition,trialType,Age.Group) %>% dplyr::summarize(meanGo = mean(Response, na.rm = TRUE),N = n()/45, sdAcc = sd(Response, na.rm = TRUE),seAcc = sdAcc/(sqrt(N)))
+
+condition_go_responses <- ggplot(Realaction_per_trialType_condition, aes(x = trialType, y = meanGo)) + 
+  geom_bar(aes(fill = trialType), stat = "identity", color = "Black") +
+  scale_fill_manual(values = c("#9084A5", "#BBB3C9", "#BBB3C9", "#9084A5")) + 
+  facet_wrap(~Condition + Age.Group) +
+  geom_point(data = sim_action_trialType_condition, aes(x = trialType, y = meanGo_age),
+             size = 4, color = "yellow", alpha = 0.7) +
+  geom_errorbar(data = sim_action_trialType_condition, aes(x = trialType, y = meanGo_age, ymin = meanGo_age - seAction, ymax = meanGo_age + seAction),
+                width = 0.2, color = "yellow") +
+  geom_errorbar(data = Realaction_per_trialType_condition, aes(x = trialType, y = meanGo, ymin = meanGo - seAcc, ymax = meanGo + seAcc),
+                width = 0.3) +
+  theme_classic() + 
+  theme(strip.text.x = element_text(size = 20),
+        axis.text = element_text(size = 20), 
+        axis.text.x = element_text(angle = 45, hjust = 1), 
+        axis.title = element_text(size = 20), 
+        legend.text = element_text(size = 20), 
+        legend.title = element_text(size = 20),
+        legend.position = "none") +
+  labs(x = "Trial Type", y = "Go Response")
+
+plot(condition_go_responses)
+```
+
+
+###Correlation between parameters and age 
+```{r parameters_age }
+
+
+# File paths
+
+param.csv<-paste0(WD,'computational_modeling_code/w2_param_estim.csv')
+param_df <- read.csv(param.csv, header = FALSE) %>%
+  # Assign column names to the dataframe
+  `colnames<-`(c("subjID", "invTemp", "reward", "alpha", "w2")) %>%
+  # Exclude the first row
+  slice(-1)
+
+# Merge parameter dataframe with age data
+param_df_age <- merge(param_df, age, by = "subjID")
+
+# Convert parameter columns to numeric
+param_df_age <- param_df_age %>%
+  mutate(across(c("invTemp", "reward", "alpha", "w2"), as.numeric))
+
+# Merge PavBias_overall with parameter-age dataframe 
+PavBias_overall <- merge(PavBias_overall, param_df_age, by = "subjID")
+
+PavBias_overall <- PavBias_overall %>% 
+  dplyr::select(-matches("\\.y"))
+colnames(PavBias_overall) <- gsub("\\.x", "", colnames(PavBias_overall))
+
+# Define a function to extract correlation results
+get_cor_results <- function(data, x, y) {
+  result <- data %>%
+    summarise(
+      correlation = cor.test(get(x), get(y))$estimate,
+      p_value = cor.test(get(x), get(y))$p.value
+    )
+  return(result)
+}
+
+# Function to generate plot for each parameter
+generate_plot <- function(data, x_var, y_var, title) {
+  p <- ggplot(data, aes_string(x=x_var, y=y_var)) + 
+    geom_point() + 
+    geom_smooth(method = "glm", formula = y ~ poly(x, 1), colour="black") + 
+    labs(x = "Age", y="Parameter estimate") + 
+    ggtitle(title) +
+    theme_classic(base_size=14) + 
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.title.y=element_blank())
+  return(p)
+}
+
+# Generate plots
+invTemp_age <- generate_plot(PavBias_overall, "age", "invTemp", "Inverse temperature")
+alpha_age <- generate_plot(PavBias_overall, "age", "alpha", "initial learning rate")
+reward_age <- generate_plot(PavBias_overall, "age", "reward", "initial stimulus and action values")
+w_age <- generate_plot(PavBias_overall, "age", "w2", "w2")
+
+# Combine plots horizontally
+param_est_fig <- plot_grid(invTemp_age, alpha_age, reward_age,w_age,
+                           labels = c('a', 'b','c','d'), 
+                           align="h", 
+                           axis = "bt",
+                           nrow=1)
+
+# Plot the combined figure
+plot(param_est_fig)
+
+# Perform linear model analyses and correlations for each parameter
+# - Models
+# - ANOVA
+# - Summary statistics
+# - Correlation results
+# Inverse Temperature
+InvTemp_age.m <- lm(invTemp ~ z_age, data = param_df_age)
+InvTemp_ageSq.m <- lm(invTemp ~ (z_age + z_ageSq), data = param_df_age)
+anova(InvTemp_age.m, InvTemp_ageSq.m)
+summary(InvTemp_age.m)
+cor_results_invTemp <- get_cor_results(param_df_age, "invTemp", "z_age")
+cor_results_invTemp
+# Alpha (prior confidence)
+alpha_age.m <- lm(alpha ~ z_age, data = param_df_age)
+alpha_ageSq.m <- lm(alpha ~ (z_age + z_ageSq), data = param_df_age)
+anova(alpha_age.m, alpha_ageSq.m)
+summary(alpha_age.m)
+cor_results_alpha <- get_cor_results(param_df_age, "alpha", "z_age")
+cor_results_alpha
+# Reward (prior reward)
+reward_age.m <- lm(reward ~ z_age, data = param_df_age)
+reward_ageSq.m <- lm(reward ~ (z_age + z_ageSq), data = param_df_age)
+anova(reward_age.m, reward_ageSq.m)
+summary(reward_age.m)
+cor_results_reward <- get_cor_results(param_df_age, "reward", "z_age")
+cor_results_reward
+# W2
+w2_age.m <- lm(w2 ~ z_age, data = param_df_age)
+w2_ageSq.m <- lm(w2 ~ (z_age + z_ageSq), data = param_df_age)
+anova(w2_age.m, w2_ageSq.m)
+summary(w2_age.m)
+cor_results_w2 <- get_cor_results(param_df_age, "w2", "z_age")
+cor_results_w2
+```

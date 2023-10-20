@@ -1,0 +1,669 @@
+Cog2000 log file Fri Dec 13 17:04:08 2019
+gprim v1.33 Compiled:Aug 12 2015 (GLib DirectDraw v7 DX12.0 Compiled:Aug 12 2015)
+Display:1024x768x32 59.95Hz
+Attaching C:\Program Files\Cogent2000v1.33\Toolbox\CogInput.mexw64
+CogInput v1.05 Compiled: May 20 2010
+7	[7]	:	COGENT START
+7035	[7028]	:	Key	71	DOWN	at	7033    
+7248	[213]	:	Key	71	UP	at	7114    
+23245	[15997]	:	Key	71	DOWN	at	23244   
+23339	[94]	:	Key	71	UP	at	23339   
+26667	[3328]	:	Key	71	DOWN	at	26666   
+26810	[143]	:	Key	71	UP	at	26810   
+36765	[9955]	:	Key	71	DOWN	at	36764   
+36856	[91]	:	Key	71	UP	at	36856   
+49981	[13125]	:	Key	71	DOWN	at	49980   
+50108	[127]	:	Key	71	UP	at	50108   
+72444	[22336]	:	Key	71	DOWN	at	72444   
+73581	[1137]	:	time Target is 73385
+74906	[1325]	:	Key	71	DOWN	at	74906   
+75064	[158]	:	Key	71	UP	at	75063   
+81817	[6753]	:	time Target is 81816
+82394	[577]	:	Key	71	DOWN	at	82394   
+88227	[5833]	:	time Target is 88225
+88941	[714]	:	Key	71	DOWN	at	88940   
+94382	[5441]	:	time Target is 94380
+94551	[169]	:	Key	71	DOWN	at	94551   
+100491	[5940]	:	time Target is 100471
+101240	[749]	:	Key	71	DOWN	at	101239  
+109255	[8015]	:	Key	71	DOWN	at	109255  
+110327	[1072]	:	time Target is 110326
+116665	[6338]	:	time Target is 116664
+123008	[6343]	:	time Target is 123008
+129342	[6334]	:	time Target is 129342
+147801	[18459]	:	Key	71	DOWN	at	147801  
+147991	[190]	:	Key	71	UP	at	147991  
+151948	[3957]	:	Key	71	DOWN	at	151947  
+152043	[95]	:	Key	71	UP	at	152042  
+155578	[3535]	:	Key	71	DOWN	at	155578  
+155752	[174]	:	Key	71	UP	at	155752  
+162604	[6852]	:	Key	71	DOWN	at	162603  
+162701	[97]	:	Key	71	UP	at	162700  
+166807	[4106]	:	Key	71	DOWN	at	166807  
+168271	[1464]	:	time Target is 168270
+173405	[5134]	:	time Target is 173404
+178494	[5089]	:	time Target is 178494
+179084	[590]	:	Key	71	DOWN	at	179083  
+183671	[4587]	:	time Target is 183671
+184266	[595]	:	Key	71	DOWN	at	184265  
+187986	[3720]	:	Key	71	UP	at	184442  
+194026	[6040]	:	Key	71	DOWN	at	194026  
+194184	[158]	:	Key	71	UP	at	194183  
+197307	[3123]	:	Key	71	DOWN	at	197307  
+198109	[802]	:	Key	71	UP	at	197448  
+198139	[30]	:	time Target is 198138
+198667	[528]	:	Key	71	DOWN	at	198667  
+203248	[4581]	:	time Target is 203248
+208329	[5081]	:	time Target is 208329
+213404	[5075]	:	time Target is 213404
+213835	[431]	:	Key	71	DOWN	at	213835  
+217703	[3868]	:	Key	71	UP	at	214042  
+225337	[7634]	:	Key	71	DOWN	at	225337  
+225483	[146]	:	Key	71	UP	at	225483  
+227895	[2412]	:	Key	71	DOWN	at	227894  
+228686	[791]	:	Key	71	UP	at	228088  
+228709	[23]	:	time Target is 228709
+233787	[5078]	:	time Target is 233786
+234235	[448]	:	Key	71	DOWN	at	234234  
+238874	[4639]	:	time Target is 238873
+243961	[5087]	:	time Target is 243961
+244457	[496]	:	Key	71	DOWN	at	244457  
+248256	[3799]	:	Key	71	UP	at	244647  
+255116	[6860]	:	Key	71	DOWN	at	255116  
+255274	[158]	:	Key	71	UP	at	255273  
+257562	[2288]	:	Key	71	DOWN	at	257562  
+258346	[784]	:	Key	71	UP	at	257707  
+258370	[24]	:	time Target is 258370
+263445	[5075]	:	time Target is 263445
+263947	[502]	:	Key	71	DOWN	at	263947  
+268547	[4600]	:	time Target is 268547
+273634	[5087]	:	time Target is 273633
+284071	[10437]	:	Key	71	DOWN	at	284070  
+284200	[129]	:	Key	71	UP	at	284200  
+299035	[14835]	:	Key	71	DOWN	at	299035  
+299176	[141]	:	Key	71	UP	at	299175  
+313404	[14228]	:	Key	71	DOWN	at	313404  
+313514	[110]	:	Key	71	UP	at	313514  
+324297	[10783]	:	Key	71	DOWN	at	324297  
+324472	[175]	:	Key	71	UP	at	324471  
+334267	[9795]	:	Key	71	DOWN	at	334267  
+336867	[2600]	:	time Target is 336867
+337341	[474]	:	Key	71	DOWN	at	337340  
+342230	[4889]	:	time Target is 342230
+347573	[5343]	:	time Target is 347573
+347961	[388]	:	Key	71	DOWN	at	347960  
+352942	[4981]	:	time Target is 352941
+353388	[446]	:	Key	71	DOWN	at	353387  
+358346	[4958]	:	time Target is 358345
+358760	[414]	:	Key	71	DOWN	at	358760  
+363697	[4937]	:	time Target is 363697
+364074	[377]	:	Key	71	DOWN	at	364074  
+369042	[4968]	:	time Target is 369042
+369383	[341]	:	Key	71	DOWN	at	369383  
+374382	[4999]	:	time Target is 374382
+374970	[588]	:	Key	71	DOWN	at	374970  
+379725	[4755]	:	time Target is 379725
+385091	[5366]	:	time Target is 385091
+385499	[408]	:	Key	71	DOWN	at	385498  
+390438	[4939]	:	time Target is 390438
+390698	[260]	:	Key	71	DOWN	at	390697  
+395781	[5083]	:	time Target is 395781
+401102	[5321]	:	time Target is 401102
+406426	[5324]	:	time Target is 406426
+411768	[5342]	:	time Target is 411768
+412568	[800]	:	Key	71	DOWN	at	412568  
+417104	[4536]	:	time Target is 417104
+417563	[459]	:	Key	71	DOWN	at	417562  
+422445	[4882]	:	time Target is 422445
+427821	[5376]	:	time Target is 427821
+433146	[5325]	:	time Target is 433146
+433496	[350]	:	Key	71	DOWN	at	433496  
+438484	[4988]	:	time Target is 438484
+443804	[5320]	:	time Target is 443804
+449175	[5371]	:	time Target is 449175
+449640	[465]	:	Key	71	DOWN	at	449640  
+454514	[4874]	:	time Target is 454514
+459843	[5329]	:	time Target is 459843
+460921	[1078]	:	Key	71	DOWN	at	460920  
+465176	[4255]	:	time Target is 465176
+465562	[386]	:	Key	71	DOWN	at	465562  
+470508	[4946]	:	time Target is 470508
+475830	[5322]	:	time Target is 475830
+476569	[739]	:	Key	71	DOWN	at	476568  
+481161	[4592]	:	time Target is 481161
+486484	[5323]	:	time Target is 486484
+491804	[5320]	:	time Target is 491804
+492329	[525]	:	Key	71	DOWN	at	492328  
+497146	[4817]	:	time Target is 497146
+497547	[401]	:	Key	71	DOWN	at	497547  
+502479	[4932]	:	time Target is 502479
+507797	[5318]	:	time Target is 507797
+513121	[5324]	:	time Target is 513121
+513659	[538]	:	Key	71	DOWN	at	513659  
+518458	[4799]	:	time Target is 518458
+518827	[369]	:	Key	71	DOWN	at	518827  
+523794	[4967]	:	time Target is 523794
+529109	[5315]	:	time Target is 529109
+534439	[5330]	:	time Target is 534439
+539792	[5353]	:	time Target is 539792
+540331	[539]	:	Key	71	DOWN	at	540330  
+545129	[4798]	:	time Target is 545129
+545816	[687]	:	Key	71	DOWN	at	545815  
+550452	[4636]	:	time Target is 550452
+555795	[5343]	:	time Target is 555795
+561120	[5325]	:	time Target is 561120
+561736	[616]	:	Key	71	DOWN	at	561736  
+566494	[4758]	:	time Target is 566494
+566842	[348]	:	Key	71	DOWN	at	566842  
+571833	[4991]	:	time Target is 571833
+572425	[592]	:	Key	71	DOWN	at	572425  
+577171	[4746]	:	time Target is 577171
+577787	[616]	:	Key	71	DOWN	at	577787  
+582509	[4722]	:	time Target is 582509
+587834	[5325]	:	time Target is 587834
+588234	[400]	:	Key	71	DOWN	at	588234  
+593171	[4937]	:	time Target is 593171
+598497	[5326]	:	time Target is 598497
+598984	[487]	:	Key	71	DOWN	at	598983  
+603834	[4850]	:	time Target is 603834
+609157	[5323]	:	time Target is 609157
+614479	[5322]	:	time Target is 614479
+615275	[796]	:	Key	71	DOWN	at	615275  
+619818	[4543]	:	time Target is 619818
+625142	[5324]	:	time Target is 625142
+630510	[5368]	:	time Target is 630510
+631640	[1130]	:	Key	71	DOWN	at	631639  
+635886	[4246]	:	time Target is 635886
+636551	[665]	:	Key	71	DOWN	at	636550  
+641253	[4702]	:	time Target is 641253
+646575	[5322]	:	time Target is 646575
+647366	[791]	:	Key	71	DOWN	at	647366  
+651914	[4548]	:	time Target is 651914
+657238	[5324]	:	time Target is 657238
+657659	[421]	:	Key	71	DOWN	at	657659  
+662585	[4926]	:	time Target is 662585
+667923	[5338]	:	time Target is 667923
+668470	[547]	:	Key	71	DOWN	at	668470  
+673262	[4792]	:	time Target is 673262
+673692	[430]	:	Key	71	DOWN	at	673691  
+678602	[4910]	:	time Target is 678602
+683927	[5325]	:	time Target is 683927
+689252	[5325]	:	time Target is 689252
+690087	[835]	:	Key	71	DOWN	at	690086  
+694590	[4503]	:	time Target is 694590
+699910	[5320]	:	time Target is 699910
+700535	[625]	:	Key	71	DOWN	at	700535  
+705248	[4713]	:	time Target is 705248
+705819	[571]	:	Key	71	DOWN	at	705819  
+710579	[4760]	:	time Target is 710579
+715900	[5321]	:	time Target is 715900
+721224	[5324]	:	time Target is 721224
+726551	[5327]	:	time Target is 726551
+726921	[370]	:	Key	71	DOWN	at	726921  
+731893	[4972]	:	time Target is 731893
+732327	[434]	:	Key	71	DOWN	at	732327  
+737252	[4925]	:	time Target is 737252
+742595	[5343]	:	time Target is 742595
+743066	[471]	:	Key	71	DOWN	at	743066  
+747929	[4863]	:	time Target is 747929
+753252	[5323]	:	time Target is 753252
+754539	[1287]	:	Key	71	DOWN	at	754538  
+758591	[4052]	:	time Target is 758591
+758987	[396]	:	Key	71	DOWN	at	758987  
+763925	[4938]	:	time Target is 763925
+764359	[434]	:	Key	71	DOWN	at	764359  
+769255	[4896]	:	time Target is 769255
+774576	[5321]	:	time Target is 774576
+775259	[683]	:	Key	71	DOWN	at	775259  
+779912	[4653]	:	time Target is 779912
+785232	[5320]	:	time Target is 785232
+790553	[5321]	:	time Target is 790553
+791115	[562]	:	Key	71	DOWN	at	791114  
+795889	[4774]	:	time Target is 795889
+796379	[490]	:	Key	71	DOWN	at	796379  
+801222	[4843]	:	time Target is 801222
+806544	[5322]	:	time Target is 806544
+806951	[407]	:	Key	71	DOWN	at	806951  
+811875	[4924]	:	time Target is 811875
+812743	[868]	:	Key	71	DOWN	at	812742  
+816178	[3435]	:	Key	71	UP	at	812871  
+817317	[1139]	:	Key	71	DOWN	at	817317  
+818109	[792]	:	Key	71	UP	at	817513  
+818378	[269]	:	time Target is 818378
+823696	[5318]	:	time Target is 823696
+829024	[5328]	:	time Target is 829024
+829400	[376]	:	Key	71	DOWN	at	829399  
+834364	[4964]	:	time Target is 834364
+835014	[650]	:	Key	71	DOWN	at	835013  
+839738	[4724]	:	time Target is 839738
+840025	[287]	:	Key	71	DOWN	at	840024  
+845489	[5464]	:	time Target is 845489
+850806	[5317]	:	time Target is 850806
+856130	[5324]	:	time Target is 856130
+856520	[390]	:	Key	71	DOWN	at	856520  
+861473	[4953]	:	time Target is 861473
+862011	[538]	:	Key	71	DOWN	at	862010  
+866810	[4799]	:	time Target is 866810
+867285	[475]	:	Key	71	DOWN	at	867285  
+872149	[4864]	:	time Target is 872149
+877476	[5327]	:	time Target is 877476
+878009	[533]	:	Key	71	DOWN	at	878008  
+882816	[4807]	:	time Target is 882816
+888142	[5326]	:	time Target is 888142
+888507	[365]	:	Key	71	DOWN	at	888507  
+893480	[4973]	:	time Target is 893480
+898804	[5324]	:	time Target is 898804
+899125	[321]	:	Key	71	DOWN	at	899125  
+904142	[5017]	:	time Target is 904142
+909476	[5334]	:	time Target is 909476
+914791	[5315]	:	time Target is 914791
+920162	[5371]	:	time Target is 920162
+925487	[5325]	:	time Target is 925487
+930831	[5344]	:	time Target is 930831
+936153	[5322]	:	time Target is 936153
+941475	[5322]	:	time Target is 941475
+941975	[500]	:	Key	71	DOWN	at	941975  
+946814	[4839]	:	time Target is 946814
+947239	[425]	:	Key	71	DOWN	at	947238  
+952199	[4960]	:	time Target is 952199
+952805	[606]	:	Key	71	DOWN	at	952805  
+957535	[4730]	:	time Target is 957535
+962854	[5319]	:	time Target is 962854
+968201	[5347]	:	time Target is 968201
+973525	[5324]	:	time Target is 973525
+978851	[5326]	:	time Target is 978851
+984170	[5319]	:	time Target is 984170
+989491	[5321]	:	time Target is 989491
+990184	[693]	:	Key	71	DOWN	at	990184  
+994845	[4661]	:	time Target is 994845
+1000172	[5327]	:	time Target is 1000172
+1000651	[479]	:	Key	71	DOWN	at	1000650 
+1005531	[4880]	:	time Target is 1005531
+1005849	[318]	:	Key	71	DOWN	at	1005848 
+1010879	[5030]	:	time Target is 1010879
+1011304	[425]	:	Key	71	DOWN	at	1011303 
+1016216	[4912]	:	time Target is 1016216
+1016582	[366]	:	Key	71	DOWN	at	1016581 
+1021554	[4972]	:	time Target is 1021554
+1022038	[484]	:	Key	71	DOWN	at	1022038 
+1026881	[4843]	:	time Target is 1026881
+1032203	[5322]	:	time Target is 1032203
+1037538	[5335]	:	time Target is 1037538
+1037866	[328]	:	Key	71	DOWN	at	1037866 
+1042871	[5005]	:	time Target is 1042871
+1048188	[5317]	:	time Target is 1048188
+1048569	[381]	:	Key	71	DOWN	at	1048569 
+1053613	[5044]	:	time Target is 1053613
+1058953	[5340]	:	time Target is 1058953
+1059466	[513]	:	Key	71	DOWN	at	1059466 
+1064291	[4825]	:	time Target is 1064291
+1064678	[387]	:	Key	71	DOWN	at	1064677 
+1069628	[4950]	:	time Target is 1069628
+1074951	[5323]	:	time Target is 1074951
+1075482	[531]	:	Key	71	DOWN	at	1075481 
+1080285	[4803]	:	time Target is 1080285
+1085609	[5324]	:	time Target is 1085609
+1086247	[638]	:	Key	71	DOWN	at	1086246 
+1090945	[4698]	:	time Target is 1090945
+1096268	[5323]	:	time Target is 1096268
+1101590	[5322]	:	time Target is 1101590
+1106923	[5333]	:	time Target is 1106923
+1107432	[509]	:	Key	71	DOWN	at	1107432 
+1112257	[4825]	:	time Target is 1112257
+1117581	[5324]	:	time Target is 1117581
+1122902	[5321]	:	time Target is 1122902
+1128214	[5312]	:	time Target is 1128214
+1133534	[5320]	:	time Target is 1133534
+1138858	[5324]	:	time Target is 1138858
+1139258	[400]	:	Key	71	DOWN	at	1139258 
+1144194	[4936]	:	time Target is 1144194
+1144664	[470]	:	Key	71	DOWN	at	1144663 
+1149526	[4862]	:	time Target is 1149526
+1150183	[657]	:	Key	71	DOWN	at	1150183 
+1154866	[4683]	:	time Target is 1154866
+1160188	[5322]	:	time Target is 1160188
+1165509	[5321]	:	time Target is 1165509
+1170830	[5321]	:	time Target is 1170830
+1171240	[410]	:	Key	71	DOWN	at	1171240 
+1176166	[4926]	:	time Target is 1176166
+1176585	[419]	:	Key	71	DOWN	at	1176584 
+1181506	[4921]	:	time Target is 1181506
+1181879	[373]	:	Key	71	DOWN	at	1181879 
+1186842	[4963]	:	time Target is 1186842
+1187334	[492]	:	Key	71	DOWN	at	1187334 
+1192165	[4831]	:	time Target is 1192165
+1197492	[5327]	:	time Target is 1197492
+1202817	[5325]	:	time Target is 1202817
+1203577	[760]	:	Key	71	DOWN	at	1203576 
+1208173	[4596]	:	time Target is 1208173
+1213493	[5320]	:	time Target is 1213493
+1218813	[5320]	:	time Target is 1218813
+1224134	[5321]	:	time Target is 1224134
+1224536	[402]	:	Key	71	DOWN	at	1224536 
+1229475	[4939]	:	time Target is 1229475
+1234801	[5326]	:	time Target is 1234801
+1240125	[5324]	:	time Target is 1240125
+1245451	[5326]	:	time Target is 1245451
+1245722	[271]	:	Key	71	DOWN	at	1245721 
+1250785	[5063]	:	time Target is 1250785
+1256105	[5320]	:	time Target is 1256105
+1256616	[511]	:	Key	71	DOWN	at	1256616 
+1261446	[4830]	:	time Target is 1261446
+1261862	[416]	:	Key	71	DOWN	at	1261862 
+1266786	[4924]	:	time Target is 1266786
+1267080	[294]	:	Key	71	DOWN	at	1267080 
+1272120	[5040]	:	time Target is 1272120
+1277438	[5318]	:	time Target is 1277438
+1282763	[5325]	:	time Target is 1282763
+1282985	[222]	:	Key	71	DOWN	at	1282984 
+1288101	[5116]	:	time Target is 1288101
+1288250	[149]	:	Key	71	DOWN	at	1288250 
+1293431	[5181]	:	time Target is 1293431
+1293814	[383]	:	Key	71	DOWN	at	1293814 
+1297735	[3921]	:	Key	71	UP	at	1293958 
+1298681	[946]	:	Key	71	DOWN	at	1298680 
+1298824	[143]	:	Key	71	UP	at	1298823 
+1300855	[2031]	:	Key	71	DOWN	at	1300854 
+1301653	[798]	:	Key	71	UP	at	1301017 
+1301919	[266]	:	time Target is 1301919
+1302410	[491]	:	Key	71	DOWN	at	1302409 
+1307265	[4855]	:	time Target is 1307265
+1307706	[441]	:	Key	71	DOWN	at	1307706 
+1312636	[4930]	:	time Target is 1312636
+1313206	[570]	:	Key	71	DOWN	at	1313206 
+1317971	[4765]	:	time Target is 1317971
+1323292	[5321]	:	time Target is 1323292
+1323620	[328]	:	Key	71	DOWN	at	1323620 
+1328631	[5011]	:	time Target is 1328631
+1333969	[5338]	:	time Target is 1333969
+1334325	[356]	:	Key	71	DOWN	at	1334325 
+1339307	[4982]	:	time Target is 1339307
+1344627	[5320]	:	time Target is 1344627
+1344953	[326]	:	Key	71	DOWN	at	1344953 
+1349960	[5007]	:	time Target is 1349960
+1355276	[5316]	:	time Target is 1355276
+1355670	[394]	:	Key	71	DOWN	at	1355669 
+1360613	[4943]	:	time Target is 1360613
+1365934	[5321]	:	time Target is 1365934
+1366472	[538]	:	Key	71	DOWN	at	1366471 
+1371276	[4804]	:	time Target is 1371276
+1371625	[349]	:	Key	71	DOWN	at	1371625 
+1376608	[4983]	:	time Target is 1376608
+1381927	[5319]	:	time Target is 1381927
+1382917	[990]	:	Key	71	DOWN	at	1382917 
+1387268	[4351]	:	time Target is 1387268
+1392590	[5322]	:	time Target is 1392590
+1397911	[5321]	:	time Target is 1397911
+1403236	[5325]	:	time Target is 1403236
+1404231	[995]	:	Key	71	DOWN	at	1404231 
+1408578	[4347]	:	time Target is 1408578
+1408933	[355]	:	Key	71	DOWN	at	1408933 
+1413934	[5001]	:	time Target is 1413934
+1414440	[506]	:	Key	71	DOWN	at	1414439 
+1419272	[4832]	:	time Target is 1419272
+1424625	[5353]	:	time Target is 1424625
+1425096	[471]	:	Key	71	DOWN	at	1425096 
+1429964	[4868]	:	time Target is 1429964
+1430503	[539]	:	Key	71	DOWN	at	1430503 
+1435304	[4801]	:	time Target is 1435304
+1440624	[5320]	:	time Target is 1440624
+1445968	[5344]	:	time Target is 1445968
+1451287	[5319]	:	time Target is 1451287
+1451896	[609]	:	Key	71	DOWN	at	1451895 
+1456626	[4730]	:	time Target is 1456626
+1461948	[5322]	:	time Target is 1461948
+1462343	[395]	:	Key	71	DOWN	at	1462342 
+1467338	[4995]	:	time Target is 1467338
+1472658	[5320]	:	time Target is 1472658
+1473028	[370]	:	Key	71	DOWN	at	1473028 
+1477996	[4968]	:	time Target is 1477996
+1478393	[397]	:	Key	71	DOWN	at	1478393 
+1483337	[4944]	:	time Target is 1483337
+1483396	[59]	:	Key	71	DOWN	at	1483396 
+1488671	[5275]	:	time Target is 1488671
+1493998	[5327]	:	time Target is 1493998
+1499327	[5329]	:	time Target is 1499327
+1504649	[5322]	:	time Target is 1504649
+1505145	[496]	:	Key	71	DOWN	at	1505145 
+1509975	[4830]	:	time Target is 1509975
+1515300	[5325]	:	time Target is 1515300
+1515848	[548]	:	Key	71	DOWN	at	1515848 
+1520636	[4788]	:	time Target is 1520636
+1525951	[5315]	:	time Target is 1525951
+1531272	[5321]	:	time Target is 1531272
+1531959	[687]	:	Key	71	DOWN	at	1531959 
+1536607	[4648]	:	time Target is 1536607
+1541928	[5321]	:	time Target is 1541928
+1542231	[303]	:	Key	71	DOWN	at	1542230 
+1547282	[5051]	:	time Target is 1547282
+1552601	[5319]	:	time Target is 1552601
+1553272	[671]	:	Key	71	DOWN	at	1553271 
+1557931	[4659]	:	time Target is 1557931
+1563254	[5323]	:	time Target is 1563254
+1568577	[5323]	:	time Target is 1568577
+1568953	[376]	:	Key	71	DOWN	at	1568952 
+1573912	[4959]	:	time Target is 1573912
+1574260	[348]	:	Key	71	DOWN	at	1574260 
+1579247	[4987]	:	time Target is 1579247
+1584571	[5324]	:	time Target is 1584571
+1585445	[874]	:	Key	71	DOWN	at	1585445 
+1589923	[4478]	:	time Target is 1589923
+1590182	[259]	:	Key	71	DOWN	at	1590182 
+1595259	[5077]	:	time Target is 1595259
+1600582	[5323]	:	time Target is 1600582
+1600951	[369]	:	Key	71	DOWN	at	1600950 
+1605933	[4982]	:	time Target is 1605933
+1611255	[5322]	:	time Target is 1611255
+1612024	[769]	:	Key	71	DOWN	at	1612023 
+1616593	[4569]	:	time Target is 1616593
+1616933	[340]	:	Key	71	DOWN	at	1616932 
+1621933	[5000]	:	time Target is 1621933
+1622166	[233]	:	Key	71	DOWN	at	1622166 
+1627262	[5096]	:	time Target is 1627262
+1628184	[922]	:	Key	71	DOWN	at	1628184 
+1632597	[4413]	:	time Target is 1632597
+1637916	[5319]	:	time Target is 1637916
+1643235	[5319]	:	time Target is 1643235
+1643670	[435]	:	Key	71	DOWN	at	1643670 
+1648567	[4897]	:	time Target is 1648567
+1653888	[5321]	:	time Target is 1653888
+1659207	[5319]	:	time Target is 1659207
+1664531	[5324]	:	time Target is 1664531
+1665141	[610]	:	Key	71	DOWN	at	1665141 
+1669868	[4727]	:	time Target is 1669868
+1670184	[316]	:	Key	71	DOWN	at	1670184 
+1675233	[5049]	:	time Target is 1675233
+1675578	[345]	:	Key	71	DOWN	at	1675577 
+1680569	[4991]	:	time Target is 1680569
+1685895	[5326]	:	time Target is 1685895
+1686229	[334]	:	Key	71	DOWN	at	1686229 
+1691227	[4998]	:	time Target is 1691227
+1691797	[570]	:	Key	71	DOWN	at	1691797 
+1696565	[4768]	:	time Target is 1696565
+1696951	[386]	:	Key	71	DOWN	at	1696951 
+1701899	[4948]	:	time Target is 1701899
+1702408	[509]	:	Key	71	DOWN	at	1702408 
+1707241	[4833]	:	time Target is 1707241
+1707752	[511]	:	Key	71	DOWN	at	1707751 
+1712576	[4824]	:	time Target is 1712576
+1713032	[456]	:	Key	71	DOWN	at	1713032 
+1717917	[4885]	:	time Target is 1717917
+1723241	[5324]	:	time Target is 1723241
+1723670	[429]	:	Key	71	DOWN	at	1723670 
+1728572	[4902]	:	time Target is 1728572
+1729320	[748]	:	Key	71	DOWN	at	1729319 
+1733914	[4594]	:	time Target is 1733914
+1739236	[5322]	:	time Target is 1739236
+1739589	[353]	:	Key	71	DOWN	at	1739588 
+1744579	[4990]	:	time Target is 1744579
+1744887	[308]	:	Key	71	DOWN	at	1744887 
+1749918	[5031]	:	time Target is 1749918
+1755239	[5321]	:	time Target is 1755239
+1760565	[5326]	:	time Target is 1760565
+1765888	[5323]	:	time Target is 1765888
+1771211	[5323]	:	time Target is 1771211
+1776535	[5324]	:	time Target is 1776535
+1781877	[5342]	:	Key	71	DOWN	at	1781877 
+1782665	[788]	:	Key	71	UP	at	1782053 
+1782930	[265]	:	time Target is 1782930
+1783496	[566]	:	Key	71	DOWN	at	1783496 
+1788263	[4767]	:	time Target is 1788263
+1789142	[879]	:	Key	71	DOWN	at	1789142 
+1793600	[4458]	:	time Target is 1793600
+1794374	[774]	:	Key	71	DOWN	at	1794374 
+1798945	[4571]	:	time Target is 1798945
+1799575	[630]	:	Key	71	DOWN	at	1799574 
+1804286	[4711]	:	time Target is 1804286
+1809596	[5310]	:	time Target is 1809596
+1814913	[5317]	:	time Target is 1814913
+1820234	[5321]	:	time Target is 1820234
+1825696	[5462]	:	time Target is 1825696
+1826152	[456]	:	Key	71	DOWN	at	1826152 
+1831031	[4879]	:	time Target is 1831031
+1831413	[382]	:	Key	71	DOWN	at	1831412 
+1836369	[4956]	:	time Target is 1836369
+1836629	[260]	:	Key	71	DOWN	at	1836629 
+1841712	[5083]	:	time Target is 1841712
+1842105	[393]	:	Key	71	DOWN	at	1842104 
+1847055	[4950]	:	time Target is 1847055
+1847288	[233]	:	Key	71	DOWN	at	1847288 
+1852435	[5147]	:	time Target is 1852435
+1852725	[290]	:	Key	71	DOWN	at	1852724 
+1857778	[5053]	:	time Target is 1857778
+1858744	[966]	:	Key	71	DOWN	at	1858744 
+1863117	[4373]	:	time Target is 1863117
+1864100	[983]	:	Key	71	DOWN	at	1864099 
+1868457	[4357]	:	time Target is 1868457
+1873776	[5319]	:	time Target is 1873776
+1874089	[313]	:	Key	71	DOWN	at	1874089 
+1879103	[5014]	:	time Target is 1879103
+1884424	[5321]	:	time Target is 1884424
+1884646	[222]	:	Key	71	DOWN	at	1884646 
+1889763	[5117]	:	time Target is 1889763
+1895085	[5322]	:	time Target is 1895085
+1895428	[343]	:	Key	71	DOWN	at	1895428 
+1900418	[4990]	:	time Target is 1900418
+1905746	[5328]	:	time Target is 1905746
+1906584	[838]	:	Key	71	DOWN	at	1906583 
+1911078	[4494]	:	time Target is 1911078
+1916402	[5324]	:	time Target is 1916402
+1921772	[5370]	:	time Target is 1921772
+1927092	[5320]	:	time Target is 1927092
+1927463	[371]	:	Key	71	DOWN	at	1927463 
+1932435	[4972]	:	time Target is 1932435
+1937755	[5320]	:	time Target is 1937755
+1938103	[348]	:	Key	71	DOWN	at	1938102 
+1943092	[4989]	:	time Target is 1943092
+1948412	[5320]	:	time Target is 1948412
+1948792	[380]	:	Key	71	DOWN	at	1948791 
+1953753	[4961]	:	time Target is 1953753
+1954067	[314]	:	Key	71	DOWN	at	1954067 
+1959077	[5010]	:	time Target is 1959077
+1959798	[721]	:	Key	71	DOWN	at	1959797 
+1964424	[4626]	:	time Target is 1964424
+1969747	[5323]	:	time Target is 1969747
+1975065	[5318]	:	time Target is 1975065
+1980392	[5327]	:	time Target is 1980392
+1985713	[5321]	:	time Target is 1985713
+1986009	[296]	:	Key	71	DOWN	at	1986008 
+1991052	[5043]	:	time Target is 1991052
+1996373	[5321]	:	time Target is 1996373
+2001692	[5319]	:	time Target is 2001692
+2007015	[5323]	:	time Target is 2007015
+2012338	[5323]	:	time Target is 2012338
+2017658	[5320]	:	time Target is 2017658
+2022981	[5323]	:	time Target is 2022981
+2028305	[5324]	:	time Target is 2028305
+2028726	[421]	:	Key	71	DOWN	at	2028726 
+2033641	[4915]	:	time Target is 2033641
+2038961	[5320]	:	time Target is 2038961
+2044279	[5318]	:	time Target is 2044279
+2049605	[5326]	:	time Target is 2049605
+2054938	[5333]	:	time Target is 2054938
+2060257	[5319]	:	time Target is 2060257
+2065619	[5362]	:	time Target is 2065619
+2070938	[5319]	:	time Target is 2070938
+2076263	[5325]	:	time Target is 2076263
+2076661	[398]	:	Key	71	DOWN	at	2076661 
+2081603	[4942]	:	time Target is 2081603
+2081897	[294]	:	Key	71	DOWN	at	2081895 
+2086938	[5041]	:	time Target is 2086938
+2092259	[5321]	:	time Target is 2092259
+2097582	[5323]	:	time Target is 2097582
+2102902	[5320]	:	time Target is 2102902
+2103350	[448]	:	Key	71	DOWN	at	2103349 
+2108242	[4892]	:	time Target is 2108242
+2113561	[5319]	:	time Target is 2113561
+2113924	[363]	:	Key	71	DOWN	at	2113924 
+2118902	[4978]	:	time Target is 2118902
+2119017	[115]	:	Key	71	DOWN	at	2119016 
+2124243	[5226]	:	time Target is 2124243
+2125063	[820]	:	Key	71	DOWN	at	2125063 
+2129578	[4515]	:	time Target is 2129578
+2134898	[5320]	:	time Target is 2134898
+2135367	[469]	:	Key	71	DOWN	at	2135366 
+2140239	[4872]	:	time Target is 2140239
+2145581	[5342]	:	time Target is 2145581
+2150905	[5324]	:	time Target is 2150905
+2156226	[5321]	:	time Target is 2156226
+2161546	[5320]	:	time Target is 2161546
+2162104	[558]	:	Key	71	DOWN	at	2162103 
+2166886	[4782]	:	time Target is 2166886
+2172208	[5322]	:	time Target is 2172208
+2172772	[564]	:	Key	71	DOWN	at	2172772 
+2177542	[4770]	:	time Target is 2177542
+2177828	[286]	:	Key	71	DOWN	at	2177827 
+2182880	[5052]	:	time Target is 2182880
+2188202	[5322]	:	time Target is 2188202
+2188455	[253]	:	Key	71	DOWN	at	2188455 
+2193541	[5086]	:	time Target is 2193541
+2198860	[5319]	:	time Target is 2198860
+2204182	[5322]	:	time Target is 2204182
+2209546	[5364]	:	time Target is 2209546
+2209879	[333]	:	Key	71	DOWN	at	2209877 
+2214875	[4996]	:	time Target is 2214875
+2220198	[5323]	:	time Target is 2220198
+2225521	[5323]	:	time Target is 2225521
+2230844	[5323]	:	time Target is 2230844
+2231586	[742]	:	Key	71	DOWN	at	2231586 
+2236185	[4599]	:	time Target is 2236185
+2236248	[63]	:	Key	71	DOWN	at	2236248 
+2241523	[5275]	:	time Target is 2241523
+2246875	[5352]	:	time Target is 2246875
+2252199	[5324]	:	time Target is 2252199
+2257524	[5325]	:	time Target is 2257524
+2257815	[291]	:	Key	71	DOWN	at	2257815 
+2261831	[4016]	:	Key	71	UP	at	2257941 
+2270981	[9150]	:	Key	71	DOWN	at	2270981 
+2271080	[99]	:	Key	71	UP	at	2271080 
+2279270	[8190]	:	Key	29	DOWN	at	2279270 
+2279334	[64]	:	Key	29	UP	at	2279333 
+2283669	[4335]	:	Key	29	DOWN	at	2283669 
+2283796	[127]	:	Key	29	UP	at	2283795 
+2287269	[3473]	:	Key	29	DOWN	at	2287268 
+2287383	[114]	:	Key	29	UP	at	2287383 
+2288967	[1584]	:	Key	29	DOWN	at	2288966 
+2289043	[76]	:	Key	29	UP	at	2289043 
+2290424	[1381]	:	Key	28	DOWN	at	2290423 
+2290547	[123]	:	Key	28	UP	at	2290547 
+2292071	[1524]	:	Key	28	DOWN	at	2292070 
+2292163	[92]	:	Key	28	UP	at	2292162 
+2293669	[1506]	:	Key	29	DOWN	at	2293669 
+2293780	[111]	:	Key	29	UP	at	2293779 
+2294629	[849]	:	Key	28	DOWN	at	2294628 
+2294741	[112]	:	Key	28	UP	at	2294740 
+2304869	[10128]	:	Key	28	DOWN	at	2304868 
+2304979	[110]	:	Key	28	UP	at	2304979 
+2306664	[1685]	:	Key	28	DOWN	at	2306663 
+2306775	[111]	:	Key	28	UP	at	2306774 
+2308647	[1872]	:	Key	28	DOWN	at	2308646 
+2308756	[109]	:	Key	28	UP	at	2308755 
+2310131	[1375]	:	Key	28	DOWN	at	2310131 
+2312358	[2227]	:	Key	29	DOWN	at	2312358 
+2312439	[81]	:	Key	29	UP	at	2312438 
+2313395	[956]	:	Key	29	DOWN	at	2313395 
+2313477	[82]	:	Key	29	UP	at	2313477 
+2316309	[2832]	:	Key	29	DOWN	at	2316309 
+2316437	[128]	:	Key	29	UP	at	2316436 
+2317479	[1042]	:	Key	28	DOWN	at	2317479 
+2317589	[110]	:	COGENT STOP
