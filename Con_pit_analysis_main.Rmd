@@ -239,6 +239,12 @@ PavBias.age.group.m <- mixed(PavBiasScore ~ condition*Age.Group + (1 | subjID), 
 age_con <- emmeans(PavBias.age.group.m, pairwise ~ condition | Age.Group)
 age_con #print post hoc results 
 
+# Get the estimated marginal means for the interaction
+emm_int <- emmeans(PavBias.age.group.m, ~ condition * Age.Group)
+
+# Pairwise comparisons of the interaction effect
+con_delta <- contrast(emm_int, interaction = "pairwise")
+con_delta # Print the results
 ```
 
 
