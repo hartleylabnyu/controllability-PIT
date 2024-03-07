@@ -126,7 +126,7 @@ PavBias_byCondition <- PavBias_byCondition %>%
 ```{r visualization}
 
 # Create a scatter plot with smoothed lines per condition
-ticketsWon_condition_plot <- ggplot(PavBias_byCondition, aes(x = z_age, y = tickets, color = Condition)) +
+ticketsWon_condition_plot <- ggplot(PavBias_byCondition, aes(x = age, y = tickets, color = Condition)) +
   geom_point(size = 2) +
   geom_smooth(method = "glm", formula = y ~ poly(x, 2)) +
   geom_hline(yintercept = 0, size = 2, linetype = "dashed", color = "black") +
