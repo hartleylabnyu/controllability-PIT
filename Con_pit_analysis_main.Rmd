@@ -39,7 +39,7 @@ library(segmented)
 ## Define working directory
 ```{r wd}
 #Your main WD goes here: 
-WD<-'/Users/noamgoldway/Library/CloudStorage/Box-Box/HartleyLab_SHARED/1_STUDIES/ConPit_HillaryCareen/Analyses/To_git/'
+WD<-''
 ```
 
 
