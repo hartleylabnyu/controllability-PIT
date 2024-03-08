@@ -37,10 +37,10 @@
 % SETUP
 % -------------------------
 
-%WD='/path/to/computational_modeling_code'
+%WD='/path/to/computational_modeling_code' %insert the correct directory
 addpath(WD)
 
-cd(WD) %insert the correct directory
+cd(WD) 
 
 task_behav_dir='data/task_data/';
 dataDirectory=[WD,'/',task_behav_dir]
