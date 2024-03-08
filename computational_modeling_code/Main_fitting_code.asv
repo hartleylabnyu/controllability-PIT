@@ -32,7 +32,6 @@
 ## 10. **Export Simulated Data**
    The script simulates subject-specific datasets based on the parameters estimated from the actual data. These datasets are then exported to individual CSV files.
 
-**Note:** Before running the script or sharing it, make sure to check the path to your working directory and other sensitive information you might not want to share.
 
 % -------------------------
 % SETUP
