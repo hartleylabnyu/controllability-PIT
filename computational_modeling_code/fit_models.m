@@ -16,8 +16,7 @@ function [results, bms_results] = fit_models(data,models,results)
         fun = str2func(likfuns{m});
         
         switch likfuns{m}
-            
-%               
+                           
             case 'lik_adaptive_gng'
                 
                 param(1) = struct('name','invtemp','logpdf',@(x) 0,'lb',btmin,'ub',btmax);
