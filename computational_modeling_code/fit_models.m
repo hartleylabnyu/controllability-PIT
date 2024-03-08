@@ -6,8 +6,6 @@ function [results, bms_results] = fit_models(data,models,results)
     if nargin < 2; models = 1:length(likfuns); end % check, do I have input argument 2 (models)
     
     pmin = 0.01;
-    %pmax = 80;
-    %btmax = 30;
     pmax = 100;
     btmin = 1e-3;
     btmax = 50;
