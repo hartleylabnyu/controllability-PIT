@@ -312,8 +312,19 @@ order_per_subj <- w_trialbytrial %>%
 
 ```{r plot_w, fig.cap="Line plot of the mean Pavlovian weight (w) by age group and trial condition order, with error bars indicating standard error of the mean."}
 w_trialbytrial_order_per_agegroup <- w_trialbytrial %>%
-  group_by(Age.Group, trial_num, condition, Order) %>%
-  dplyr::summarise(N = n(), mean_w = mean(w, na.rm = TRUE), sdw = sd(w, na.rm = TRUE), sew = sdw / sqrt(N))
+  dplyr::mutate(condition = case_when(
+    condition == "Con" ~ "Controllable",
+    condition == "Uncon" ~ "Uncontrollable",
+    TRUE ~ condition
+  )) %>%
+  dplyr::group_by(Age.Group, trial_num, condition, Order) %>%
+  dplyr::summarise(
+    N = n(),
+    mean_w = mean(w, na.rm = TRUE),
+    sdw = sd(w, na.rm = TRUE),
+    sew = sdw / sqrt(N),
+    .groups = "drop" # This line ensures the grouping is dropped after summarise
+  )
 
 
 w_byagetrialcondition_order <- ggplot(w_trialbytrial_order_per_agegroup, aes(x = trial_num, y = mean_w, color = condition)) +
@@ -321,7 +332,7 @@ w_byagetrialcondition_order <- ggplot(w_trialbytrial_order_per_agegroup, aes(x =
   geom_errorbar(aes(ymin = mean_w - sew, ymax = mean_w + sew), alpha = 0.1) +
   facet_wrap(~Age.Group) +
   geom_vline(xintercept = 180, size = 1.5, linetype = "dashed", color = "black") +
-  theme_classic(base_size = 20) +
+  theme_classic(base_size = 16) +
   theme(axis.title.x = element_blank()) +
   ylab('Pavlovian weight (w)') +
   labs(color = "Condition") +
@@ -330,6 +341,7 @@ w_byagetrialcondition_order <- ggplot(w_trialbytrial_order_per_agegroup, aes(x =
   scale_x_continuous(breaks = c(90, 270), labels = c("Block 1", "Block 2"))
 
 plot(w_byagetrialcondition_order)
+
 ```
 
 ### Mixed-Effects Model Analyses W
