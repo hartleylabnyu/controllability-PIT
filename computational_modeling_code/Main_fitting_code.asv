@@ -203,8 +203,8 @@ cd(WD)
 w_trial_by_trial = convertDataStruct_me_regression([WD,'/data/task_data/']); 
 w_per_trial = [];
 
-for sub = 1:size(results(1).latents,2)
-   w_per_trial = [w_per_trial; results(1).latents(sub).w];
+for sub = 1:size(results(3).latents,2)
+   w_per_trial = [w_per_trial; results(3).latents(sub).w];
 end 
 
 w_trial_by_trial = [w_trial_by_trial,w_per_trial];
