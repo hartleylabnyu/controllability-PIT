@@ -5,7 +5,7 @@
 
 **Adolescents flexibly adapt action selection based on controllability inferences**
 
-This repository contains tasks, anonymized data, and analysis code for the study titled: "Adolescents flexibly adapt action selection based on controllability inferences."
+This repository contains tasks, anonymized data, and analysis code for the study: Raab, H.A.+, Goldway, N.+, Foord, C., & Hartley, C.A. (2024). [Adolescents flexibly adapt action selection based on controllability inferences.](https://learnmem.cshlp.org/content/31/3/a053901.abstract) *Learning & Memory.*
 
 ## Task
 
