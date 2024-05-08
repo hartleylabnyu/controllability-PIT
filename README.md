@@ -1,5 +1,5 @@
 
-# con_pit
+# Adolescents flexibly adapt action selection based on controllability inferences
 
 ## Description
 
